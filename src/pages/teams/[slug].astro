@@ -4,6 +4,7 @@ import TeamCrest from "../../components/TeamCrest.astro";
 import { teams } from "../../data/teams";
 import { getTeamMedia } from "../../utils/media";
 import { getTeamRatings, categoryMean, overallMean } from "../../data/teamRatings";
+import { withBase } from "../../utils/url";
 
 export function getStaticPaths() {
   return teams.map((team) => ({
@@ -22,7 +23,7 @@ const gesamt = ratings ? overallMean(ratings) : 0;
   title={`${team.name} – Bundesliga`}
   description={`Profil von ${team.name} (${team.stadium}, ${team.city}).`}
   transparentHeader
-  back={{ href: "/", label: "Zur Übersicht" }}
+  back={{ href: withBase("/"), label: "Zur Übersicht" }}
 >
   <main>
     <div

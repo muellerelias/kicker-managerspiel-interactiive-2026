@@ -1,13 +1,13 @@
 import { existsSync } from "node:fs";
 import { join } from "node:path";
+import { withBase } from "./url";
 
 const PUBLIC_DIR = join(process.cwd(), "public");
 
 function findExisting(dir: string, basename: string, extensions: string[]): string | null {
   for (const ext of extensions) {
-    const relative = `/${dir}/${basename}.${ext}`;
     if (existsSync(join(PUBLIC_DIR, dir, `${basename}.${ext}`))) {
-      return relative;
+      return withBase(`${dir}/${basename}.${ext}`);
     }
   }
   return null;

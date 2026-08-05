@@ -1,0 +1,298 @@
+---
+import Layout from "../layouts/Layout.astro";
+import TeamCrest from "../components/TeamCrest.astro";
+import { teams } from "../data/teams";
+import { getTeamRatings, categoryMean, overallMean } from "../data/teamRatings";
+
+const scoreColumns = [
+  { key: "teamqualitaet", sortKey: "teamqualitaet", label: "Teamqualität" },
+  { key: "stabilitaet", sortKey: "stabilitaet", label: "Stabilität" },
+  { key: "kader", sortKey: "kader", label: "Kader" },
+  { key: "kickerManager", sortKey: "kicker-manager", label: "Kicker-Manager" },
+] as const;
+
+const rows = teams.map((team) => {
+  const ratings = getTeamRatings(team.slug);
+  const categoryScores = Object.fromEntries(
+    scoreColumns.map(({ key }) => {
+      const category = ratings?.find((c) => c.key === key);
+      return [key, category ? categoryMean(category) : 0];
+    })
+  ) as Record<(typeof scoreColumns)[number]["key"], number>;
+  const gesamt = ratings ? overallMean(ratings) : 0;
+  return { team, categoryScores, gesamt };
+});
+---
+
+<Layout title="Bundesliga Vereine">
+  <main class="container">
+    <h1>Bundesliga</h1>
+    <p class="lead">Alle 18 Vereine der Saison 2025/26.</p>
+
+    <div class="table-scroll">
+      <div class="table" role="table" id="team-table">
+        <div class="row head" role="row">
+          <button type="button" class="cell rank" role="columnheader" data-sort-key="rank" aria-sort="none" data-sort-type="number">
+            #
+          </button>
+          <button type="button" class="cell club" role="columnheader" data-sort-key="name" aria-sort="none">
+            Verein
+          </button>
+          {
+            scoreColumns.map((col) => (
+              <button type="button" class="cell score" role="columnheader" data-sort-key={col.sortKey} aria-sort="none" data-sort-type="number">
+                {col.label}
+              </button>
+            ))
+          }
+          <button type="button" class="cell score gesamt" role="columnheader" data-sort-key="gesamt" aria-sort="none" data-sort-type="number">
+            Gesamt
+          </button>
+          <span class="cell chevron-head" aria-hidden="true" />
+        </div>
+        {
+          rows.map(({ team, categoryScores, gesamt }) => (
+            <a
+              class="row"
+              role="row"
+              href={`/teams/${team.slug}/`}
+              data-name={team.name}
+              data-rank={team.lastSeasonRank}
+              {...Object.fromEntries(scoreColumns.map((col) => [`data-${col.sortKey}`, categoryScores[col.key]]))}
+              data-gesamt={gesamt}
+            >
+              <span class="cell rank" role="cell">
+                {team.lastSeasonRank}
+              </span>
+              <span class="cell club" role="cell">
+                <TeamCrest team={team} size={40} />
+                {team.name}
+              </span>
+              {
+                scoreColumns.map((col) => (
+                  <span class="cell score" role="cell">
+                    {categoryScores[col.key].toFixed(1)}
+                  </span>
+                ))
+              }
+              <span class="cell score gesamt" role="cell">
+                {gesamt.toFixed(1)}
+              </span>
+              <svg class="chevron" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9 6l6 6-6 6" />
+              </svg>
+            </a>
+          ))
+        }
+      </div>
+    </div>
+  </main>
+</Layout>
+
+<script>
+  function initSortableTable(root: ParentNode) {
+    const table = root.querySelector<HTMLElement>("#team-table");
+    if (!table) return;
+
+    const headers = table.querySelectorAll<HTMLButtonElement>("[data-sort-key]");
+    let currentKey: string | null = null;
+    let currentDir: "asc" | "desc" = "asc";
+
+    function sortBy(key: string, type: string | undefined) {
+      const container = table!;
+      const rowEls = Array.from(container.querySelectorAll<HTMLAnchorElement>(".row:not(.head)"));
+
+      if (currentKey === key) {
+        currentDir = currentDir === "asc" ? "desc" : "asc";
+      } else {
+        currentKey = key;
+        currentDir = type === "number" ? "desc" : "asc";
+      }
+
+      rowEls.sort((a, b) => {
+        const rawA = a.dataset[toCamel(key)] ?? "";
+        const rawB = b.dataset[toCamel(key)] ?? "";
+        let cmp: number;
+        if (type === "number") {
+          cmp = parseFloat(rawA) - parseFloat(rawB);
+        } else {
+          cmp = rawA.localeCompare(rawB, "de");
+        }
+        return currentDir === "asc" ? cmp : -cmp;
+      });
+
+      rowEls.forEach((row) => container.appendChild(row));
+
+      headers.forEach((h) => {
+        h.setAttribute("aria-sort", h.dataset.sortKey === key ? (currentDir === "asc" ? "ascending" : "descending") : "none");
+      });
+    }
+
+    function toCamel(key: string): string {
+      return key.replace(/-([a-z])/g, (_, c) => c.toUpperCase());
+    }
+
+    headers.forEach((header) => {
+      header.addEventListener("click", () => {
+        sortBy(header.dataset.sortKey!, header.dataset.sortType);
+      });
+    });
+  }
+
+  initSortableTable(document);
+</script>
+
+<style>
+  main {
+    padding: 2.5rem 1.5rem 4rem;
+  }
+
+  .lead {
+    color: var(--text-muted);
+    margin-top: 0;
+  }
+
+  .table-scroll {
+    overflow-x: auto;
+    margin-top: 2rem;
+    border-radius: 16px;
+  }
+
+  .table {
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    background: var(--bg-elevated);
+    min-width: 900px;
+  }
+
+  .row {
+    display: grid;
+    grid-template-columns: 2.5rem minmax(200px, 2fr) repeat(4, 0.9fr) 0.9fr auto;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.75rem 1.25rem;
+    border-bottom: 1px solid var(--border);
+    text-decoration: none;
+    color: var(--text);
+  }
+
+  .row:last-child {
+    border-bottom: none;
+  }
+
+  .row.head {
+    padding: 0;
+    font-size: 0.78rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    color: var(--text-muted);
+    background: var(--bg-subtle);
+    align-items: stretch;
+  }
+
+  .row.head .cell {
+    padding: 0.6rem 0;
+    background: transparent;
+    border: none;
+    font: inherit;
+    color: inherit;
+    text-transform: inherit;
+    letter-spacing: inherit;
+    text-align: left;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    white-space: normal;
+    overflow: visible;
+    text-overflow: clip;
+    line-height: 1.25;
+  }
+
+  .row.head .cell.score {
+    justify-content: flex-end;
+    text-align: right;
+  }
+
+  .row.head .cell.club {
+    padding-left: 0;
+  }
+
+  .row.head .cell.rank {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .row.head .cell:hover {
+    color: var(--text);
+  }
+
+  .row.head .cell[aria-sort="ascending"]::after {
+    content: "↑";
+  }
+
+  .row.head .cell[aria-sort="descending"]::after {
+    content: "↓";
+  }
+
+  a.row {
+    transition: background-color 0.12s ease;
+  }
+
+  a.row:hover {
+    background: var(--bg-subtle);
+  }
+
+  .cell {
+    font-size: 0.92rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  .cell.club {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-weight: 600;
+    white-space: normal;
+  }
+
+  .cell.rank {
+    text-align: center;
+    color: var(--text-muted);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cell.muted {
+    color: var(--text-muted);
+  }
+
+  .cell.score {
+    text-align: right;
+    justify-self: end;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .cell.score.gesamt {
+    font-weight: 700;
+    color: var(--text);
+  }
+
+  .chevron-head {
+    width: 18px;
+  }
+
+  .chevron {
+    color: var(--text-muted);
+    justify-self: end;
+  }
+
+  @media (max-width: 720px) {
+    .table-scroll {
+      overflow-x: auto;
+    }
+  }
+</style>

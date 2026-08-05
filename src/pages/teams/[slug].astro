@@ -1,0 +1,318 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import TeamCrest from "../../components/TeamCrest.astro";
+import { teams } from "../../data/teams";
+import { getTeamMedia } from "../../utils/media";
+import { getTeamRatings, categoryMean, overallMean } from "../../data/teamRatings";
+
+export function getStaticPaths() {
+  return teams.map((team) => ({
+    params: { slug: team.slug },
+    props: { team },
+  }));
+}
+
+const { team } = Astro.props;
+const { stadiumPhoto } = getTeamMedia(team.slug);
+const ratings = getTeamRatings(team.slug);
+const gesamt = ratings ? overallMean(ratings) : 0;
+---
+
+<Layout
+  title={`${team.name} – Bundesliga`}
+  description={`Profil von ${team.name} (${team.stadium}, ${team.city}).`}
+  transparentHeader
+  back={{ href: "/", label: "Zur Übersicht" }}
+>
+  <main>
+    <div
+      class="stadium-banner"
+      style={
+        stadiumPhoto
+          ? `background-image: linear-gradient(180deg, var(--header-overlay-top) 0%, transparent 13%, transparent 62%, var(--header-overlay-bottom) 100%), url(${stadiumPhoto});`
+          : `background-image: linear-gradient(180deg, var(--header-overlay-top) 0%, transparent 13%, transparent 62%, var(--header-overlay-bottom) 100%), linear-gradient(160deg, ${team.colorPrimary}, ${team.colorSecondary});`
+      }
+    />
+
+    <div class="identity container">
+      <TeamCrest team={team} size={128} />
+      <h1>{team.name}</h1>
+      <p class="meta">{team.city} · {team.stadium} · gegründet {team.founded}</p>
+    </div>
+
+    <section class="content container">
+      {
+        ratings ? (
+          <>
+            <div class="meta-box">
+              <div class="meta-overall">
+                <span class="meta-overall-value">{gesamt.toFixed(1)}</span>
+                <span class="meta-overall-label">Gesamtwertung</span>
+              </div>
+              <div class="meta-grid">
+                {ratings.map((category) => (
+                  <div class="meta-tile">
+                    <span class="meta-tile-value">{categoryMean(category).toFixed(1)}</span>
+                    <span class="meta-tile-label">{category.title}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {ratings.map((category) => (
+              <div class="rating-category">
+                <h2>{category.title}</h2>
+                <div class="accordion">
+                  {category.criteria.map((criterion) => (
+                    <details class="accordion-item">
+                      <summary>
+                        <span class="criterion-label">{criterion.label}</span>
+                        <span class="criterion-score" aria-label={`${criterion.score} von 5 Punkten`}>
+                          <span class="score-bar" aria-hidden="true">
+                            {Array.from({ length: 5 }).map((_, i) => (
+                              <span
+                                class="score-tick"
+                                style={`--fill: ${Math.max(0, Math.min(1, criterion.score - i)) * 100}%`}
+                              />
+                            ))}
+                          </span>
+                          <span class="score-number">{criterion.score.toFixed(1)}</span>
+                        </span>
+                      </summary>
+                      <p class="criterion-reasoning">{criterion.reasoning}</p>
+                    </details>
+                  ))}
+                </div>
+              </div>
+            ))}
+          </>
+        ) : (
+          <p class="placeholder">Noch keine Bewertung hinterlegt.</p>
+        )
+      }
+    </section>
+  </main>
+</Layout>
+
+<style>
+  .stadium-banner {
+    height: 42vh;
+    min-height: 260px;
+    background-size: cover;
+    background-position: center 68%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 1.25rem;
+  }
+
+  .stadium-name {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.01em;
+  }
+
+  .identity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: -64px;
+    padding-bottom: 1.5rem;
+  }
+
+  .identity h1 {
+    margin-top: 0.9rem;
+    font-size: 1.6rem;
+  }
+
+  .meta {
+    margin: 0;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+  }
+
+  .content {
+    padding: 1rem 1.5rem 4rem;
+  }
+
+  .placeholder {
+    border: 1px dashed var(--border);
+    border-radius: 12px;
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: var(--text-muted);
+  }
+
+  .meta-box {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 1.25rem;
+    margin-bottom: 2.5rem;
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    background: var(--bg-elevated);
+  }
+
+  .meta-overall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.15rem;
+    min-width: 120px;
+    padding: 0 1.25rem;
+    border-right: 1px solid var(--border);
+  }
+
+  .meta-overall-value {
+    font-size: 2.1rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .meta-overall-label {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+  }
+
+  .meta-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 0.75rem;
+  }
+
+  .meta-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.15rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background: var(--bg-subtle);
+  }
+
+  .meta-tile-value {
+    font-size: 1.3rem;
+    font-weight: 700;
+  }
+
+  .meta-tile-label {
+    font-size: 0.72rem;
+    color: var(--text-muted);
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .rating-category {
+    margin-bottom: 2rem;
+  }
+
+  .rating-category h2 {
+    font-size: 1.05rem;
+    margin: 0 0 0.75rem;
+  }
+
+  .accordion {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .accordion-item {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--bg-elevated);
+    overflow: hidden;
+  }
+
+  .accordion-item summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    list-style: none;
+    font-weight: 600;
+    font-size: 0.92rem;
+  }
+
+  .accordion-item summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .accordion-item summary::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    margin-right: 0.6rem;
+    border-right: 2px solid var(--text-muted);
+    border-bottom: 2px solid var(--text-muted);
+    transform: rotate(-45deg);
+    transition: transform 0.15s ease;
+    flex-shrink: 0;
+  }
+
+  .accordion-item[open] summary::before {
+    transform: rotate(45deg);
+  }
+
+  .criterion-label {
+    flex: 1;
+  }
+
+  .criterion-score {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 400;
+    color: var(--text-muted);
+  }
+
+  .score-bar {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+  }
+
+  .score-tick {
+    position: relative;
+    width: 20px;
+    height: 4px;
+    border-radius: 2px;
+    background: var(--bg-subtle);
+    overflow: hidden;
+  }
+
+  .score-tick::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    width: var(--fill);
+    background: var(--accent, #2f6fed);
+    border-radius: 2px;
+  }
+
+  .score-number {
+    min-width: 2ch;
+    font-variant-numeric: tabular-nums;
+    color: var(--text);
+  }
+
+  .criterion-reasoning {
+    margin: 0;
+    padding: 0 1rem 1rem;
+    color: var(--text-muted);
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+</style>

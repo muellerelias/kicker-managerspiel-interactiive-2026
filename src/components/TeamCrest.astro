@@ -1,0 +1,61 @@
+---
+import type { Team } from "../data/teams";
+import { getTeamMedia } from "../utils/media";
+
+interface Props {
+  team: Team;
+  size?: number;
+}
+
+const { team, size = 96 } = Astro.props;
+const { logo } = getTeamMedia(team.slug);
+
+const words = team.shortName.split(/\s+/).filter(Boolean);
+const initials = (words.length > 1 ? words.map((w) => w[0]).join("") : team.shortName.slice(0, 3)).toUpperCase();
+---
+
+<div class={`crest ${logo ? "has-logo" : ""}`} style={`--size:${size}px; --c1:${team.colorPrimary}; --c2:${team.colorSecondary}`}>
+  {
+    logo ? (
+      <img src={logo} alt={`Logo ${team.name}`} width={size} height={size} />
+    ) : (
+      <span class="initials" aria-hidden="true">
+        {initials}
+      </span>
+    )
+  }
+</div>
+
+<style>
+  .crest {
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    background: linear-gradient(145deg, var(--c1), var(--c2));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-shrink: 0;
+    box-shadow: var(--shadow);
+    border: 3px solid var(--bg-elevated);
+  }
+
+  .crest.has-logo {
+    background: #fff;
+  }
+
+  .crest img {
+    width: 78%;
+    height: 78%;
+    object-fit: contain;
+  }
+
+  .initials {
+    color: #fff;
+    font-weight: 800;
+    font-size: calc(var(--size) * 0.32);
+    letter-spacing: -0.02em;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  }
+</style>

@@ -1,0 +1,307 @@
+datum,spieltag,heimteam,gastteam,tore_heim,tore_gast
+23.08.2024,1,Borussia Mönchengladbach,Bayer 04 Leverkusen,2,3
+24.08.2024,1,Sport-Club Freiburg,VfB Stuttgart,3,1
+24.08.2024,1,1. FSV Mainz 05,1. FC Union Berlin,1,1
+24.08.2024,1,FC Augsburg,SV Werder Bremen,2,2
+24.08.2024,1,TSG Hoffenheim,Holstein Kiel,3,2
+24.08.2024,1,RB Leipzig,VfL Bochum 1848,1,0
+24.08.2024,1,Borussia Dortmund,Eintracht Frankfurt,2,0
+25.08.2024,1,VfL Wolfsburg,FC Bayern München,2,3
+25.08.2024,1,FC St. Pauli,1. FC Heidenheim 1846,0,2
+30.08.2024,2,1. FC Union Berlin,FC St. Pauli,1,0
+31.08.2024,2,SV Werder Bremen,Borussia Dortmund,0,0
+31.08.2024,2,VfB Stuttgart,1. FSV Mainz 05,3,3
+31.08.2024,2,Eintracht Frankfurt,TSG Hoffenheim,3,1
+31.08.2024,2,VfL Bochum 1848,Borussia Mönchengladbach,0,2
+31.08.2024,2,Holstein Kiel,VfL Wolfsburg,0,2
+31.08.2024,2,Bayer 04 Leverkusen,RB Leipzig,2,3
+01.09.2024,2,1. FC Heidenheim 1846,FC Augsburg,4,0
+01.09.2024,2,FC Bayern München,Sport-Club Freiburg,2,0
+13.09.2024,3,Borussia Dortmund,1. FC Heidenheim 1846,4,2
+14.09.2024,3,Borussia Mönchengladbach,VfB Stuttgart,1,3
+14.09.2024,3,Sport-Club Freiburg,VfL Bochum 1848,2,1
+14.09.2024,3,VfL Wolfsburg,Eintracht Frankfurt,1,2
+14.09.2024,3,TSG Hoffenheim,Bayer 04 Leverkusen,1,4
+14.09.2024,3,RB Leipzig,1. FC Union Berlin,0,0
+14.09.2024,3,Holstein Kiel,FC Bayern München,1,6
+15.09.2024,3,FC Augsburg,FC St. Pauli,3,1
+15.09.2024,3,1. FSV Mainz 05,SV Werder Bremen,1,2
+20.09.2024,4,FC Augsburg,1. FSV Mainz 05,2,3
+21.09.2024,4,SV Werder Bremen,FC Bayern München,0,5
+21.09.2024,4,VfL Bochum 1848,Holstein Kiel,2,2
+21.09.2024,4,1. FC Union Berlin,TSG Hoffenheim,2,1
+21.09.2024,4,1. FC Heidenheim 1846,Sport-Club Freiburg,0,3
+21.09.2024,4,Eintracht Frankfurt,Borussia Mönchengladbach,2,0
+22.09.2024,4,Bayer 04 Leverkusen,VfL Wolfsburg,4,3
+22.09.2024,4,VfB Stuttgart,Borussia Dortmund,5,1
+22.09.2024,4,FC St. Pauli,RB Leipzig,0,0
+27.09.2024,5,Borussia Dortmund,VfL Bochum 1848,4,2
+28.09.2024,5,Borussia Mönchengladbach,1. FC Union Berlin,1,0
+28.09.2024,5,Sport-Club Freiburg,FC St. Pauli,0,3
+28.09.2024,5,VfL Wolfsburg,VfB Stuttgart,2,2
+28.09.2024,5,1. FSV Mainz 05,1. FC Heidenheim 1846,0,2
+28.09.2024,5,RB Leipzig,FC Augsburg,4,0
+28.09.2024,5,FC Bayern München,Bayer 04 Leverkusen,1,1
+29.09.2024,5,Holstein Kiel,Eintracht Frankfurt,2,4
+29.09.2024,5,TSG Hoffenheim,SV Werder Bremen,3,4
+04.10.2024,6,FC Augsburg,Borussia Mönchengladbach,2,1
+05.10.2024,6,SV Werder Bremen,Sport-Club Freiburg,0,1
+05.10.2024,6,VfL Bochum 1848,VfL Wolfsburg,1,3
+05.10.2024,6,Bayer 04 Leverkusen,Holstein Kiel,2,2
+05.10.2024,6,1. FC Union Berlin,Borussia Dortmund,2,1
+05.10.2024,6,FC St. Pauli,1. FSV Mainz 05,0,3
+06.10.2024,6,1. FC Heidenheim 1846,RB Leipzig,0,1
+06.10.2024,6,Eintracht Frankfurt,FC Bayern München,3,3
+06.10.2024,6,VfB Stuttgart,TSG Hoffenheim,1,1
+18.10.2024,7,Borussia Dortmund,FC St. Pauli,2,1
+19.10.2024,7,Borussia Mönchengladbach,1. FC Heidenheim 1846,3,2
+19.10.2024,7,Bayer 04 Leverkusen,Eintracht Frankfurt,2,1
+19.10.2024,7,Sport-Club Freiburg,FC Augsburg,3,1
+19.10.2024,7,1. FSV Mainz 05,RB Leipzig,0,2
+19.10.2024,7,TSG Hoffenheim,VfL Bochum 1848,3,1
+19.10.2024,7,FC Bayern München,VfB Stuttgart,4,0
+20.10.2024,7,Holstein Kiel,1. FC Union Berlin,0,2
+20.10.2024,7,VfL Wolfsburg,SV Werder Bremen,2,4
+25.10.2024,8,1. FSV Mainz 05,Borussia Mönchengladbach,1,1
+26.10.2024,8,VfB Stuttgart,Holstein Kiel,2,1
+26.10.2024,8,FC St. Pauli,VfL Wolfsburg,0,0
+26.10.2024,8,FC Augsburg,Borussia Dortmund,2,1
+26.10.2024,8,RB Leipzig,Sport-Club Freiburg,3,1
+26.10.2024,8,SV Werder Bremen,Bayer 04 Leverkusen,2,2
+27.10.2024,8,VfL Bochum 1848,FC Bayern München,0,5
+27.10.2024,8,1. FC Union Berlin,Eintracht Frankfurt,1,1
+27.10.2024,8,1. FC Heidenheim 1846,TSG Hoffenheim,0,0
+01.11.2024,9,Bayer 04 Leverkusen,VfB Stuttgart,0,0
+02.11.2024,9,FC Bayern München,1. FC Union Berlin,3,0
+02.11.2024,9,Eintracht Frankfurt,VfL Bochum 1848,7,2
+02.11.2024,9,VfL Wolfsburg,FC Augsburg,1,1
+02.11.2024,9,Holstein Kiel,1. FC Heidenheim 1846,1,0
+02.11.2024,9,TSG Hoffenheim,FC St. Pauli,0,2
+02.11.2024,9,Borussia Dortmund,RB Leipzig,2,1
+03.11.2024,9,Sport-Club Freiburg,1. FSV Mainz 05,0,0
+03.11.2024,9,Borussia Mönchengladbach,SV Werder Bremen,4,1
+08.11.2024,10,1. FC Union Berlin,Sport-Club Freiburg,0,0
+09.11.2024,10,SV Werder Bremen,Holstein Kiel,2,1
+09.11.2024,10,VfL Bochum 1848,Bayer 04 Leverkusen,1,1
+09.11.2024,10,FC St. Pauli,FC Bayern München,0,1
+09.11.2024,10,1. FSV Mainz 05,Borussia Dortmund,3,1
+09.11.2024,10,RB Leipzig,Borussia Mönchengladbach,0,0
+10.11.2024,10,FC Augsburg,TSG Hoffenheim,0,0
+10.11.2024,10,VfB Stuttgart,Eintracht Frankfurt,2,3
+10.11.2024,10,1. FC Heidenheim 1846,VfL Wolfsburg,1,3
+22.11.2024,11,FC Bayern München,FC Augsburg,3,0
+23.11.2024,11,VfB Stuttgart,VfL Bochum 1848,2,0
+23.11.2024,11,Borussia Dortmund,Sport-Club Freiburg,4,0
+23.11.2024,11,Bayer 04 Leverkusen,1. FC Heidenheim 1846,5,2
+23.11.2024,11,VfL Wolfsburg,1. FC Union Berlin,1,0
+23.11.2024,11,TSG Hoffenheim,RB Leipzig,4,3
+23.11.2024,11,Eintracht Frankfurt,SV Werder Bremen,1,0
+24.11.2024,11,Holstein Kiel,1. FSV Mainz 05,0,3
+24.11.2024,11,Borussia Mönchengladbach,FC St. Pauli,2,0
+29.11.2024,12,FC St. Pauli,Holstein Kiel,3,1
+30.11.2024,12,SV Werder Bremen,VfB Stuttgart,2,2
+30.11.2024,12,Sport-Club Freiburg,Borussia Mönchengladbach,3,1
+30.11.2024,12,1. FC Union Berlin,Bayer 04 Leverkusen,1,2
+30.11.2024,12,FC Augsburg,VfL Bochum 1848,1,0
+30.11.2024,12,RB Leipzig,VfL Wolfsburg,1,5
+30.11.2024,12,Borussia Dortmund,FC Bayern München,1,1
+01.12.2024,12,1. FSV Mainz 05,TSG Hoffenheim,2,0
+01.12.2024,12,1. FC Heidenheim 1846,Eintracht Frankfurt,0,4
+06.12.2024,13,VfB Stuttgart,1. FC Union Berlin,3,2
+07.12.2024,13,FC Bayern München,1. FC Heidenheim 1846,4,2
+07.12.2024,13,Eintracht Frankfurt,FC Augsburg,2,2
+07.12.2024,13,VfL Bochum 1848,SV Werder Bremen,0,1
+07.12.2024,13,Bayer 04 Leverkusen,FC St. Pauli,2,1
+07.12.2024,13,Holstein Kiel,RB Leipzig,0,2
+07.12.2024,13,Borussia Mönchengladbach,Borussia Dortmund,1,1
+08.12.2024,13,VfL Wolfsburg,1. FSV Mainz 05,4,3
+08.12.2024,13,TSG Hoffenheim,Sport-Club Freiburg,1,1
+13.12.2024,14,Sport-Club Freiburg,VfL Wolfsburg,3,2
+14.12.2024,14,Borussia Mönchengladbach,Holstein Kiel,4,1
+14.12.2024,14,1. FSV Mainz 05,FC Bayern München,2,1
+14.12.2024,14,1. FC Union Berlin,VfL Bochum 1848,0,2
+14.12.2024,14,FC Augsburg,Bayer 04 Leverkusen,0,2
+14.12.2024,14,FC St. Pauli,SV Werder Bremen,0,2
+15.12.2024,14,1. FC Heidenheim 1846,VfB Stuttgart,1,3
+15.12.2024,14,Borussia Dortmund,TSG Hoffenheim,1,1
+15.12.2024,14,RB Leipzig,Eintracht Frankfurt,2,1
+20.12.2024,15,FC Bayern München,RB Leipzig,5,1
+21.12.2024,15,SV Werder Bremen,1. FC Union Berlin,4,1
+21.12.2024,15,VfB Stuttgart,FC St. Pauli,0,1
+21.12.2024,15,Eintracht Frankfurt,1. FSV Mainz 05,1,3
+21.12.2024,15,Holstein Kiel,FC Augsburg,5,1
+21.12.2024,15,TSG Hoffenheim,Borussia Mönchengladbach,1,2
+21.12.2024,15,Bayer 04 Leverkusen,Sport-Club Freiburg,5,1
+22.12.2024,15,VfL Bochum 1848,1. FC Heidenheim 1846,2,0
+22.12.2024,15,VfL Wolfsburg,Borussia Dortmund,1,3
+10.01.2025,16,Borussia Dortmund,Bayer 04 Leverkusen,2,3
+11.01.2025,16,Sport-Club Freiburg,Holstein Kiel,3,2
+11.01.2025,16,FC St. Pauli,Eintracht Frankfurt,0,1
+11.01.2025,16,1. FSV Mainz 05,VfL Bochum 1848,2,0
+11.01.2025,16,TSG Hoffenheim,VfL Wolfsburg,0,1
+11.01.2025,16,1. FC Heidenheim 1846,1. FC Union Berlin,2,0
+11.01.2025,16,Borussia Mönchengladbach,FC Bayern München,0,1
+12.01.2025,16,RB Leipzig,SV Werder Bremen,4,2
+12.01.2025,16,FC Augsburg,VfB Stuttgart,0,1
+14.01.2025,17,Holstein Kiel,Borussia Dortmund,4,2
+14.01.2025,17,Eintracht Frankfurt,Sport-Club Freiburg,4,1
+14.01.2025,17,Bayer 04 Leverkusen,1. FSV Mainz 05,1,0
+14.01.2025,17,VfL Wolfsburg,Borussia Mönchengladbach,5,1
+15.01.2025,17,VfL Bochum 1848,FC St. Pauli,1,0
+15.01.2025,17,SV Werder Bremen,1. FC Heidenheim 1846,3,3
+15.01.2025,17,FC Bayern München,TSG Hoffenheim,5,0
+15.01.2025,17,VfB Stuttgart,RB Leipzig,2,1
+15.01.2025,17,1. FC Union Berlin,FC Augsburg,0,2
+17.01.2025,18,Eintracht Frankfurt,Borussia Dortmund,2,0
+18.01.2025,18,FC Bayern München,VfL Wolfsburg,3,2
+18.01.2025,18,VfB Stuttgart,Sport-Club Freiburg,4,0
+18.01.2025,18,VfL Bochum 1848,RB Leipzig,3,3
+18.01.2025,18,Holstein Kiel,TSG Hoffenheim,1,3
+18.01.2025,18,1. FC Heidenheim 1846,FC St. Pauli,0,2
+18.01.2025,18,Bayer 04 Leverkusen,Borussia Mönchengladbach,3,1
+19.01.2025,18,1. FC Union Berlin,1. FSV Mainz 05,2,1
+19.01.2025,18,SV Werder Bremen,FC Augsburg,0,2
+24.01.2025,19,VfL Wolfsburg,Holstein Kiel,2,2
+25.01.2025,19,Borussia Dortmund,SV Werder Bremen,2,2
+25.01.2025,19,Sport-Club Freiburg,FC Bayern München,1,2
+25.01.2025,19,1. FSV Mainz 05,VfB Stuttgart,2,0
+25.01.2025,19,FC Augsburg,1. FC Heidenheim 1846,2,1
+25.01.2025,19,RB Leipzig,Bayer 04 Leverkusen,2,2
+25.01.2025,19,Borussia Mönchengladbach,VfL Bochum 1848,3,0
+26.01.2025,19,TSG Hoffenheim,Eintracht Frankfurt,2,2
+26.01.2025,19,FC St. Pauli,1. FC Union Berlin,3,0
+31.01.2025,20,SV Werder Bremen,1. FSV Mainz 05,1,0
+01.02.2025,20,FC Bayern München,Holstein Kiel,4,3
+01.02.2025,20,VfB Stuttgart,Borussia Mönchengladbach,1,2
+01.02.2025,20,VfL Bochum 1848,Sport-Club Freiburg,0,1
+01.02.2025,20,FC St. Pauli,FC Augsburg,1,1
+01.02.2025,20,1. FC Heidenheim 1846,Borussia Dortmund,1,2
+01.02.2025,20,1. FC Union Berlin,RB Leipzig,0,0
+02.02.2025,20,Eintracht Frankfurt,VfL Wolfsburg,1,1
+02.02.2025,20,Bayer 04 Leverkusen,TSG Hoffenheim,3,1
+07.02.2025,21,FC Bayern München,SV Werder Bremen,3,0
+08.02.2025,21,Borussia Dortmund,VfB Stuttgart,1,2
+08.02.2025,21,Sport-Club Freiburg,1. FC Heidenheim 1846,1,0
+08.02.2025,21,VfL Wolfsburg,Bayer 04 Leverkusen,0,0
+08.02.2025,21,1. FSV Mainz 05,FC Augsburg,0,0
+08.02.2025,21,TSG Hoffenheim,1. FC Union Berlin,0,4
+08.02.2025,21,Borussia Mönchengladbach,Eintracht Frankfurt,1,1
+09.02.2025,21,Holstein Kiel,VfL Bochum 1848,2,2
+09.02.2025,21,RB Leipzig,FC St. Pauli,2,0
+14.02.2025,22,FC Augsburg,RB Leipzig,0,0
+15.02.2025,22,VfB Stuttgart,VfL Wolfsburg,1,2
+15.02.2025,22,VfL Bochum 1848,Borussia Dortmund,2,0
+15.02.2025,22,FC St. Pauli,Sport-Club Freiburg,0,1
+15.02.2025,22,1. FC Union Berlin,Borussia Mönchengladbach,1,2
+15.02.2025,22,Bayer 04 Leverkusen,FC Bayern München,0,0
+16.02.2025,22,SV Werder Bremen,TSG Hoffenheim,1,3
+16.02.2025,22,Eintracht Frankfurt,Holstein Kiel,3,1
+16.02.2025,22,1. FC Heidenheim 1846,1. FSV Mainz 05,0,2
+21.02.2025,23,Sport-Club Freiburg,SV Werder Bremen,5,0
+22.02.2025,23,Borussia Mönchengladbach,FC Augsburg,0,3
+22.02.2025,23,VfL Wolfsburg,VfL Bochum 1848,1,1
+22.02.2025,23,1. FSV Mainz 05,FC St. Pauli,2,0
+22.02.2025,23,Holstein Kiel,Bayer 04 Leverkusen,0,2
+22.02.2025,23,Borussia Dortmund,1. FC Union Berlin,6,0
+23.02.2025,23,RB Leipzig,1. FC Heidenheim 1846,2,2
+23.02.2025,23,FC Bayern München,Eintracht Frankfurt,4,0
+23.02.2025,23,TSG Hoffenheim,VfB Stuttgart,1,1
+28.02.2025,24,VfB Stuttgart,FC Bayern München,1,3
+01.03.2025,24,SV Werder Bremen,VfL Wolfsburg,1,2
+01.03.2025,24,VfL Bochum 1848,TSG Hoffenheim,0,1
+01.03.2025,24,FC St. Pauli,Borussia Dortmund,0,2
+01.03.2025,24,1. FC Heidenheim 1846,Borussia Mönchengladbach,0,3
+01.03.2025,24,RB Leipzig,1. FSV Mainz 05,1,2
+01.03.2025,24,Eintracht Frankfurt,Bayer 04 Leverkusen,1,4
+02.03.2025,24,1. FC Union Berlin,Holstein Kiel,0,1
+02.03.2025,24,FC Augsburg,Sport-Club Freiburg,0,0
+07.03.2025,25,Borussia Mönchengladbach,1. FSV Mainz 05,1,3
+08.03.2025,25,FC Bayern München,VfL Bochum 1848,2,3
+08.03.2025,25,Borussia Dortmund,FC Augsburg,0,1
+08.03.2025,25,Bayer 04 Leverkusen,SV Werder Bremen,0,2
+08.03.2025,25,VfL Wolfsburg,FC St. Pauli,1,1
+08.03.2025,25,Holstein Kiel,VfB Stuttgart,2,2
+08.03.2025,25,Sport-Club Freiburg,RB Leipzig,0,0
+09.03.2025,25,Eintracht Frankfurt,1. FC Union Berlin,1,2
+09.03.2025,25,TSG Hoffenheim,1. FC Heidenheim 1846,1,1
+14.03.2025,26,FC St. Pauli,TSG Hoffenheim,1,0
+15.03.2025,26,SV Werder Bremen,Borussia Mönchengladbach,2,4
+15.03.2025,26,1. FSV Mainz 05,Sport-Club Freiburg,2,2
+15.03.2025,26,1. FC Union Berlin,FC Bayern München,1,1
+15.03.2025,26,FC Augsburg,VfL Wolfsburg,1,0
+15.03.2025,26,RB Leipzig,Borussia Dortmund,2,0
+16.03.2025,26,VfL Bochum 1848,Eintracht Frankfurt,1,3
+16.03.2025,26,1. FC Heidenheim 1846,Holstein Kiel,3,1
+16.03.2025,26,VfB Stuttgart,Bayer 04 Leverkusen,3,4
+28.03.2025,27,Bayer 04 Leverkusen,VfL Bochum 1848,3,1
+29.03.2025,27,FC Bayern München,FC St. Pauli,3,2
+29.03.2025,27,Borussia Mönchengladbach,RB Leipzig,1,0
+29.03.2025,27,VfL Wolfsburg,1. FC Heidenheim 1846,0,1
+29.03.2025,27,Holstein Kiel,SV Werder Bremen,0,3
+29.03.2025,27,TSG Hoffenheim,FC Augsburg,1,1
+29.03.2025,27,Eintracht Frankfurt,VfB Stuttgart,1,0
+30.03.2025,27,Sport-Club Freiburg,1. FC Union Berlin,1,2
+30.03.2025,27,Borussia Dortmund,1. FSV Mainz 05,3,1
+04.04.2025,28,FC Augsburg,FC Bayern München,1,3
+05.04.2025,28,VfL Bochum 1848,VfB Stuttgart,0,4
+05.04.2025,28,Sport-Club Freiburg,Borussia Dortmund,1,4
+05.04.2025,28,1. FSV Mainz 05,Holstein Kiel,1,1
+05.04.2025,28,1. FC Heidenheim 1846,Bayer 04 Leverkusen,0,1
+05.04.2025,28,RB Leipzig,TSG Hoffenheim,3,1
+05.04.2025,28,SV Werder Bremen,Eintracht Frankfurt,2,0
+06.04.2025,28,FC St. Pauli,Borussia Mönchengladbach,1,1
+06.04.2025,28,1. FC Union Berlin,VfL Wolfsburg,1,0
+11.04.2025,29,VfL Wolfsburg,RB Leipzig,2,3
+12.04.2025,29,Borussia Mönchengladbach,Sport-Club Freiburg,1,2
+12.04.2025,29,VfL Bochum 1848,FC Augsburg,1,2
+12.04.2025,29,Bayer 04 Leverkusen,1. FC Union Berlin,0,0
+12.04.2025,29,Holstein Kiel,FC St. Pauli,1,2
+12.04.2025,29,TSG Hoffenheim,1. FSV Mainz 05,2,0
+12.04.2025,29,FC Bayern München,Borussia Dortmund,2,2
+13.04.2025,29,VfB Stuttgart,SV Werder Bremen,1,2
+13.04.2025,29,Eintracht Frankfurt,1. FC Heidenheim 1846,3,0
+19.04.2025,30,SV Werder Bremen,VfL Bochum 1848,1,0
+19.04.2025,30,Sport-Club Freiburg,TSG Hoffenheim,3,2
+19.04.2025,30,1. FSV Mainz 05,VfL Wolfsburg,2,2
+19.04.2025,30,1. FC Heidenheim 1846,FC Bayern München,0,4
+19.04.2025,30,RB Leipzig,Holstein Kiel,1,1
+19.04.2025,30,1. FC Union Berlin,VfB Stuttgart,4,4
+20.04.2025,30,FC Augsburg,Eintracht Frankfurt,0,0
+20.04.2025,30,Borussia Dortmund,Borussia Mönchengladbach,3,2
+20.04.2025,30,FC St. Pauli,Bayer 04 Leverkusen,1,1
+25.04.2025,31,VfB Stuttgart,1. FC Heidenheim 1846,0,1
+26.04.2025,31,FC Bayern München,1. FSV Mainz 05,3,0
+26.04.2025,31,Bayer 04 Leverkusen,FC Augsburg,2,0
+26.04.2025,31,VfL Wolfsburg,Sport-Club Freiburg,0,1
+26.04.2025,31,Holstein Kiel,Borussia Mönchengladbach,4,3
+26.04.2025,31,TSG Hoffenheim,Borussia Dortmund,2,3
+26.04.2025,31,Eintracht Frankfurt,RB Leipzig,4,0
+27.04.2025,31,VfL Bochum 1848,1. FC Union Berlin,1,1
+27.04.2025,31,SV Werder Bremen,FC St. Pauli,0,0
+02.05.2025,32,1. FC Heidenheim 1846,VfL Bochum 1848,0,0
+03.05.2025,32,Borussia Mönchengladbach,TSG Hoffenheim,4,4
+03.05.2025,32,FC St. Pauli,VfB Stuttgart,0,1
+03.05.2025,32,1. FC Union Berlin,SV Werder Bremen,2,2
+03.05.2025,32,RB Leipzig,FC Bayern München,3,3
+03.05.2025,32,Borussia Dortmund,VfL Wolfsburg,4,0
+04.05.2025,32,FC Augsburg,Holstein Kiel,1,3
+04.05.2025,32,Sport-Club Freiburg,Bayer 04 Leverkusen,2,2
+04.05.2025,32,1. FSV Mainz 05,Eintracht Frankfurt,1,1
+09.05.2025,33,VfL Wolfsburg,TSG Hoffenheim,2,2
+10.05.2025,33,SV Werder Bremen,RB Leipzig,0,0
+10.05.2025,33,VfL Bochum 1848,1. FSV Mainz 05,1,4
+10.05.2025,33,1. FC Union Berlin,1. FC Heidenheim 1846,0,3
+10.05.2025,33,Holstein Kiel,Sport-Club Freiburg,1,2
+10.05.2025,33,FC Bayern München,Borussia Mönchengladbach,2,0
+11.05.2025,33,Bayer 04 Leverkusen,Borussia Dortmund,2,4
+11.05.2025,33,Eintracht Frankfurt,FC St. Pauli,2,2
+11.05.2025,33,VfB Stuttgart,FC Augsburg,4,0
+17.05.2025,34,Borussia Mönchengladbach,VfL Wolfsburg,0,1
+17.05.2025,34,Borussia Dortmund,Holstein Kiel,3,0
+17.05.2025,34,Sport-Club Freiburg,Eintracht Frankfurt,1,3
+17.05.2025,34,FC St. Pauli,VfL Bochum 1848,0,2
+17.05.2025,34,1. FSV Mainz 05,Bayer 04 Leverkusen,2,2
+17.05.2025,34,FC Augsburg,1. FC Union Berlin,1,2
+17.05.2025,34,TSG Hoffenheim,FC Bayern München,0,4
+17.05.2025,34,1. FC Heidenheim 1846,SV Werder Bremen,1,4
+17.05.2025,34,RB Leipzig,VfB Stuttgart,2,3

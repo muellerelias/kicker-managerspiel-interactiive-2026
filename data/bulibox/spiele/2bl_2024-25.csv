@@ -1,0 +1,307 @@
+datum,spieltag,heimteam,gastteam,tore_heim,tore_gast
+02.08.2024,1,1. FC Köln,Hamburger SV,1,2
+03.08.2024,1,Hertha BSC,SC Paderborn 07,1,2
+03.08.2024,1,Karlsruher SC,1. FC Nürnberg,3,2
+03.08.2024,1,Hannover 96,SSV Jahn Regensburg,2,0
+03.08.2024,1,1. FC Magdeburg,SV Elversberg,0,0
+03.08.2024,1,FC Schalke 04,Eintracht Braunschweig,5,1
+04.08.2024,1,SV Darmstadt 98,Fortuna Düsseldorf,0,2
+04.08.2024,1,SSV Ulm 1846,1. FC Kaiserslautern,1,2
+04.08.2024,1,SpVgg Greuther Fürth,Preußen Münster,3,1
+09.08.2024,2,1. FC Kaiserslautern,SpVgg Greuther Fürth,2,2
+09.08.2024,2,SSV Jahn Regensburg,SSV Ulm 1846,1,0
+10.08.2024,2,1. FC Nürnberg,FC Schalke 04,3,1
+10.08.2024,2,Fortuna Düsseldorf,Karlsruher SC,0,0
+10.08.2024,2,SV Elversberg,1. FC Köln,2,2
+10.08.2024,2,Hamburger SV,Hertha BSC,1,1
+11.08.2024,2,Eintracht Braunschweig,1. FC Magdeburg,1,3
+11.08.2024,2,Preußen Münster,Hannover 96,0,0
+11.08.2024,2,SC Paderborn 07,SV Darmstadt 98,3,1
+23.08.2024,3,Karlsruher SC,SV Elversberg,3,2
+23.08.2024,3,Hannover 96,Hamburger SV,1,0
+24.08.2024,3,Hertha BSC,SSV Jahn Regensburg,2,0
+24.08.2024,3,Preußen Münster,1. FC Kaiserslautern,0,1
+24.08.2024,3,SpVgg Greuther Fürth,SC Paderborn 07,1,1
+24.08.2024,3,1. FC Köln,Eintracht Braunschweig,5,0
+25.08.2024,3,SV Darmstadt 98,1. FC Nürnberg,1,1
+25.08.2024,3,SSV Ulm 1846,Fortuna Düsseldorf,1,2
+25.08.2024,3,1. FC Magdeburg,FC Schalke 04,2,2
+30.08.2024,4,Fortuna Düsseldorf,Hannover 96,1,0
+30.08.2024,4,SSV Jahn Regensburg,SpVgg Greuther Fürth,0,4
+31.08.2024,4,Hamburger SV,Preußen Münster,4,1
+31.08.2024,4,1. FC Nürnberg,1. FC Magdeburg,0,4
+31.08.2024,4,SV Elversberg,SV Darmstadt 98,4,0
+31.08.2024,4,1. FC Kaiserslautern,Hertha BSC,3,4
+01.09.2024,4,FC Schalke 04,1. FC Köln,1,3
+01.09.2024,4,Eintracht Braunschweig,Karlsruher SC,1,2
+01.09.2024,4,SC Paderborn 07,SSV Ulm 1846,0,0
+13.09.2024,5,Karlsruher SC,FC Schalke 04,2,0
+13.09.2024,5,Preußen Münster,SC Paderborn 07,3,3
+14.09.2024,5,Hannover 96,1. FC Kaiserslautern,3,1
+14.09.2024,5,SV Darmstadt 98,Eintracht Braunschweig,1,1
+14.09.2024,5,SSV Ulm 1846,1. FC Nürnberg,1,2
+14.09.2024,5,1. FC Köln,1. FC Magdeburg,1,2
+15.09.2024,5,Hamburger SV,SSV Jahn Regensburg,5,0
+15.09.2024,5,Hertha BSC,Fortuna Düsseldorf,0,2
+15.09.2024,5,SpVgg Greuther Fürth,SV Elversberg,0,0
+20.09.2024,6,FC Schalke 04,SV Darmstadt 98,3,5
+20.09.2024,6,SC Paderborn 07,Hannover 96,2,1
+21.09.2024,6,1. FC Nürnberg,Hertha BSC,0,2
+21.09.2024,6,Fortuna Düsseldorf,1. FC Köln,2,2
+21.09.2024,6,Eintracht Braunschweig,SpVgg Greuther Fürth,2,0
+21.09.2024,6,1. FC Kaiserslautern,Hamburger SV,2,2
+22.09.2024,6,SSV Jahn Regensburg,Preußen Münster,0,3
+22.09.2024,6,1. FC Magdeburg,Karlsruher SC,2,2
+22.09.2024,6,SV Elversberg,SSV Ulm 1846,1,3
+27.09.2024,7,SSV Ulm 1846,Eintracht Braunschweig,3,1
+27.09.2024,7,SpVgg Greuther Fürth,Fortuna Düsseldorf,1,2
+28.09.2024,7,Hamburger SV,SC Paderborn 07,2,2
+28.09.2024,7,SV Darmstadt 98,1. FC Magdeburg,1,2
+28.09.2024,7,SSV Jahn Regensburg,1. FC Kaiserslautern,0,0
+28.09.2024,7,Preußen Münster,FC Schalke 04,1,2
+29.09.2024,7,1. FC Köln,Karlsruher SC,4,4
+29.09.2024,7,Hertha BSC,SV Elversberg,1,4
+29.09.2024,7,Hannover 96,1. FC Nürnberg,2,0
+04.10.2024,8,Karlsruher SC,SV Darmstadt 98,3,3
+04.10.2024,8,SC Paderborn 07,SSV Jahn Regensburg,3,0
+05.10.2024,8,1. FC Köln,SSV Ulm 1846,2,0
+05.10.2024,8,1. FC Nürnberg,Preußen Münster,3,2
+05.10.2024,8,SV Elversberg,1. FC Kaiserslautern,1,0
+05.10.2024,8,FC Schalke 04,Hertha BSC,2,2
+06.10.2024,8,Fortuna Düsseldorf,Hamburger SV,0,3
+06.10.2024,8,Eintracht Braunschweig,Hannover 96,2,0
+06.10.2024,8,1. FC Magdeburg,SpVgg Greuther Fürth,2,2
+18.10.2024,9,Hertha BSC,Eintracht Braunschweig,3,1
+18.10.2024,9,SV Darmstadt 98,1. FC Köln,5,1
+19.10.2024,9,Hannover 96,FC Schalke 04,1,0
+19.10.2024,9,Preußen Münster,SV Elversberg,1,1
+19.10.2024,9,SSV Jahn Regensburg,Fortuna Düsseldorf,0,3
+19.10.2024,9,1. FC Kaiserslautern,SC Paderborn 07,3,0
+20.10.2024,9,Hamburger SV,1. FC Magdeburg,3,1
+20.10.2024,9,SSV Ulm 1846,Karlsruher SC,0,1
+20.10.2024,9,SpVgg Greuther Fürth,1. FC Nürnberg,0,4
+25.10.2024,10,1. FC Köln,SC Paderborn 07,1,2
+25.10.2024,10,1. FC Nürnberg,SSV Jahn Regensburg,8,3
+26.10.2024,10,FC Schalke 04,SpVgg Greuther Fürth,3,4
+26.10.2024,10,Karlsruher SC,Hertha BSC,1,3
+26.10.2024,10,SV Elversberg,Hamburger SV,4,2
+26.10.2024,10,Fortuna Düsseldorf,1. FC Kaiserslautern,3,4
+27.10.2024,10,Eintracht Braunschweig,Preußen Münster,1,1
+27.10.2024,10,SV Darmstadt 98,SSV Ulm 1846,1,1
+27.10.2024,10,1. FC Magdeburg,Hannover 96,0,3
+01.11.2024,11,SSV Ulm 1846,FC Schalke 04,0,0
+01.11.2024,11,Preußen Münster,Fortuna Düsseldorf,1,0
+02.11.2024,11,Hannover 96,Karlsruher SC,2,1
+02.11.2024,11,SSV Jahn Regensburg,SV Elversberg,1,0
+02.11.2024,11,SpVgg Greuther Fürth,SV Darmstadt 98,1,5
+02.11.2024,11,Hertha BSC,1. FC Köln,0,1
+03.11.2024,11,Hamburger SV,1. FC Nürnberg,1,1
+03.11.2024,11,1. FC Kaiserslautern,1. FC Magdeburg,2,2
+03.11.2024,11,SC Paderborn 07,Eintracht Braunschweig,0,0
+08.11.2024,12,1. FC Nürnberg,1. FC Kaiserslautern,0,0
+08.11.2024,12,Eintracht Braunschweig,Hamburger SV,3,1
+09.11.2024,12,1. FC Köln,SpVgg Greuther Fürth,1,0
+09.11.2024,12,SV Darmstadt 98,Hertha BSC,3,1
+09.11.2024,12,1. FC Magdeburg,SSV Ulm 1846,0,0
+09.11.2024,12,Fortuna Düsseldorf,SC Paderborn 07,1,1
+10.11.2024,12,FC Schalke 04,SSV Jahn Regensburg,2,0
+10.11.2024,12,Karlsruher SC,Preußen Münster,1,1
+10.11.2024,12,SV Elversberg,Hannover 96,3,1
+22.11.2024,13,Preußen Münster,1. FC Köln,0,1
+22.11.2024,13,SC Paderborn 07,1. FC Nürnberg,3,2
+23.11.2024,13,Hertha BSC,SSV Ulm 1846,2,2
+23.11.2024,13,Fortuna Düsseldorf,SV Elversberg,0,2
+23.11.2024,13,Hannover 96,SV Darmstadt 98,1,2
+23.11.2024,13,SpVgg Greuther Fürth,Karlsruher SC,2,3
+23.11.2024,13,Hamburger SV,FC Schalke 04,2,2
+24.11.2024,13,1. FC Kaiserslautern,Eintracht Braunschweig,3,2
+24.11.2024,13,SSV Jahn Regensburg,1. FC Magdeburg,0,1
+29.11.2024,14,FC Schalke 04,1. FC Kaiserslautern,0,3
+29.11.2024,14,1. FC Magdeburg,Hertha BSC,1,3
+30.11.2024,14,1. FC Köln,Hannover 96,2,2
+30.11.2024,14,Eintracht Braunschweig,SSV Jahn Regensburg,0,0
+30.11.2024,14,SV Elversberg,SC Paderborn 07,1,3
+30.11.2024,14,SV Darmstadt 98,Preußen Münster,0,0
+01.12.2024,14,1. FC Nürnberg,Fortuna Düsseldorf,2,2
+01.12.2024,14,Karlsruher SC,Hamburger SV,1,3
+01.12.2024,14,SSV Ulm 1846,SpVgg Greuther Fürth,1,1
+06.12.2024,15,SC Paderborn 07,FC Schalke 04,2,4
+06.12.2024,15,SV Elversberg,1. FC Nürnberg,2,1
+07.12.2024,15,1. FC Kaiserslautern,Karlsruher SC,3,1
+07.12.2024,15,Hannover 96,SSV Ulm 1846,3,2
+07.12.2024,15,SpVgg Greuther Fürth,Hertha BSC,2,1
+07.12.2024,15,Preußen Münster,1. FC Magdeburg,1,2
+08.12.2024,15,Hamburger SV,SV Darmstadt 98,2,2
+08.12.2024,15,Fortuna Düsseldorf,Eintracht Braunschweig,5,0
+08.12.2024,15,SSV Jahn Regensburg,1. FC Köln,0,1
+13.12.2024,16,Hertha BSC,Preußen Münster,1,2
+13.12.2024,16,Karlsruher SC,SSV Jahn Regensburg,4,2
+14.12.2024,16,FC Schalke 04,Fortuna Düsseldorf,1,1
+14.12.2024,16,SSV Ulm 1846,Hamburger SV,1,1
+14.12.2024,16,1. FC Magdeburg,SC Paderborn 07,1,1
+14.12.2024,16,SV Darmstadt 98,1. FC Kaiserslautern,5,1
+15.12.2024,16,1. FC Köln,1. FC Nürnberg,3,1
+15.12.2024,16,Eintracht Braunschweig,SV Elversberg,0,3
+15.12.2024,16,SpVgg Greuther Fürth,Hannover 96,1,0
+20.12.2024,17,Fortuna Düsseldorf,1. FC Magdeburg,2,5
+20.12.2024,17,SV Elversberg,FC Schalke 04,1,4
+21.12.2024,17,Hamburger SV,SpVgg Greuther Fürth,5,0
+21.12.2024,17,Preußen Münster,SSV Ulm 1846,0,0
+21.12.2024,17,SC Paderborn 07,Karlsruher SC,1,2
+21.12.2024,17,1. FC Nürnberg,Eintracht Braunschweig,1,0
+22.12.2024,17,1. FC Kaiserslautern,1. FC Köln,0,1
+22.12.2024,17,Hannover 96,Hertha BSC,0,0
+22.12.2024,17,SSV Jahn Regensburg,SV Darmstadt 98,2,1
+17.01.2025,18,Fortuna Düsseldorf,SV Darmstadt 98,2,2
+17.01.2025,18,SSV Jahn Regensburg,Hannover 96,0,1
+18.01.2025,18,1. FC Kaiserslautern,SSV Ulm 1846,2,1
+18.01.2025,18,Eintracht Braunschweig,FC Schalke 04,0,0
+18.01.2025,18,Preußen Münster,SpVgg Greuther Fürth,2,1
+18.01.2025,18,Hamburger SV,1. FC Köln,1,0
+19.01.2025,18,1. FC Nürnberg,Karlsruher SC,2,1
+19.01.2025,18,SC Paderborn 07,Hertha BSC,1,2
+19.01.2025,18,SV Elversberg,1. FC Magdeburg,2,5
+24.01.2025,19,SpVgg Greuther Fürth,1. FC Kaiserslautern,2,4
+24.01.2025,19,1. FC Magdeburg,Eintracht Braunschweig,1,1
+25.01.2025,19,1. FC Köln,SV Elversberg,1,0
+25.01.2025,19,FC Schalke 04,1. FC Nürnberg,3,1
+25.01.2025,19,Karlsruher SC,Fortuna Düsseldorf,2,3
+25.01.2025,19,Hertha BSC,Hamburger SV,2,3
+26.01.2025,19,Hannover 96,Preußen Münster,2,2
+26.01.2025,19,SV Darmstadt 98,SC Paderborn 07,0,1
+26.01.2025,19,SSV Ulm 1846,SSV Jahn Regensburg,5,1
+31.01.2025,20,1. FC Nürnberg,SV Darmstadt 98,1,0
+31.01.2025,20,SV Elversberg,Karlsruher SC,2,2
+01.02.2025,20,Fortuna Düsseldorf,SSV Ulm 1846,3,2
+01.02.2025,20,Eintracht Braunschweig,1. FC Köln,1,2
+01.02.2025,20,SSV Jahn Regensburg,Hertha BSC,2,0
+01.02.2025,20,FC Schalke 04,1. FC Magdeburg,2,5
+02.02.2025,20,Hamburger SV,Hannover 96,2,2
+02.02.2025,20,1. FC Kaiserslautern,Preußen Münster,2,1
+02.02.2025,20,SC Paderborn 07,SpVgg Greuther Fürth,1,2
+07.02.2025,21,Preußen Münster,Hamburger SV,1,2
+07.02.2025,21,SpVgg Greuther Fürth,SSV Jahn Regensburg,2,1
+08.02.2025,21,SV Darmstadt 98,SV Elversberg,0,3
+08.02.2025,21,SSV Ulm 1846,SC Paderborn 07,0,2
+08.02.2025,21,1. FC Magdeburg,1. FC Nürnberg,3,4
+08.02.2025,21,Hertha BSC,1. FC Kaiserslautern,0,1
+09.02.2025,21,1. FC Köln,FC Schalke 04,1,0
+09.02.2025,21,Karlsruher SC,Eintracht Braunschweig,0,2
+09.02.2025,21,Hannover 96,Fortuna Düsseldorf,1,1
+14.02.2025,22,SC Paderborn 07,Preußen Münster,2,0
+14.02.2025,22,1. FC Magdeburg,1. FC Köln,3,0
+15.02.2025,22,1. FC Kaiserslautern,Hannover 96,0,0
+15.02.2025,22,Eintracht Braunschweig,SV Darmstadt 98,1,0
+15.02.2025,22,SV Elversberg,SpVgg Greuther Fürth,2,0
+15.02.2025,22,Fortuna Düsseldorf,Hertha BSC,2,1
+16.02.2025,22,FC Schalke 04,Karlsruher SC,2,1
+16.02.2025,22,1. FC Nürnberg,SSV Ulm 1846,2,0
+16.02.2025,22,SSV Jahn Regensburg,Hamburger SV,1,1
+21.02.2025,23,Hamburger SV,1. FC Kaiserslautern,3,0
+21.02.2025,23,Hertha BSC,1. FC Nürnberg,0,0
+22.02.2025,23,Karlsruher SC,1. FC Magdeburg,3,1
+22.02.2025,23,SSV Ulm 1846,SV Elversberg,0,0
+22.02.2025,23,Preußen Münster,SSV Jahn Regensburg,2,0
+22.02.2025,23,Hannover 96,SC Paderborn 07,1,1
+23.02.2025,23,1. FC Köln,Fortuna Düsseldorf,1,1
+23.02.2025,23,SV Darmstadt 98,FC Schalke 04,2,0
+23.02.2025,23,SpVgg Greuther Fürth,Eintracht Braunschweig,3,0
+28.02.2025,24,FC Schalke 04,Preußen Münster,1,0
+28.02.2025,24,Fortuna Düsseldorf,SpVgg Greuther Fürth,1,2
+01.03.2025,24,1. FC Kaiserslautern,SSV Jahn Regensburg,3,0
+01.03.2025,24,1. FC Nürnberg,Hannover 96,1,2
+01.03.2025,24,Eintracht Braunschweig,SSV Ulm 1846,1,1
+01.03.2025,24,Karlsruher SC,1. FC Köln,1,0
+02.03.2025,24,SC Paderborn 07,Hamburger SV,2,0
+02.03.2025,24,1. FC Magdeburg,SV Darmstadt 98,4,1
+02.03.2025,24,SV Elversberg,Hertha BSC,4,0
+07.03.2025,25,1. FC Kaiserslautern,SV Elversberg,1,1
+07.03.2025,25,SV Darmstadt 98,Karlsruher SC,3,0
+08.03.2025,25,Hertha BSC,FC Schalke 04,1,2
+08.03.2025,25,SSV Ulm 1846,1. FC Köln,0,1
+08.03.2025,25,SpVgg Greuther Fürth,1. FC Magdeburg,1,1
+08.03.2025,25,Hamburger SV,Fortuna Düsseldorf,4,1
+09.03.2025,25,Hannover 96,Eintracht Braunschweig,1,1
+09.03.2025,25,Preußen Münster,1. FC Nürnberg,0,1
+09.03.2025,25,SSV Jahn Regensburg,SC Paderborn 07,0,0
+14.03.2025,26,FC Schalke 04,Hannover 96,1,2
+14.03.2025,26,1. FC Magdeburg,Hamburger SV,0,3
+15.03.2025,26,Fortuna Düsseldorf,SSV Jahn Regensburg,1,0
+15.03.2025,26,SC Paderborn 07,1. FC Kaiserslautern,5,3
+15.03.2025,26,SV Elversberg,Preußen Münster,0,1
+15.03.2025,26,1. FC Köln,SV Darmstadt 98,2,1
+16.03.2025,26,1. FC Nürnberg,SpVgg Greuther Fürth,3,0
+16.03.2025,26,Karlsruher SC,SSV Ulm 1846,0,0
+16.03.2025,26,Eintracht Braunschweig,Hertha BSC,1,5
+28.03.2025,27,Hamburger SV,SV Elversberg,0,0
+28.03.2025,27,SSV Ulm 1846,SV Darmstadt 98,2,1
+29.03.2025,27,Hertha BSC,Karlsruher SC,3,1
+29.03.2025,27,Hannover 96,1. FC Magdeburg,0,0
+29.03.2025,27,SC Paderborn 07,1. FC Köln,1,2
+29.03.2025,27,1. FC Kaiserslautern,Fortuna Düsseldorf,3,1
+30.03.2025,27,Preußen Münster,Eintracht Braunschweig,1,1
+30.03.2025,27,SSV Jahn Regensburg,1. FC Nürnberg,2,1
+30.03.2025,27,SpVgg Greuther Fürth,FC Schalke 04,3,3
+04.04.2025,28,Karlsruher SC,Hannover 96,1,0
+04.04.2025,28,Eintracht Braunschweig,SC Paderborn 07,3,2
+05.04.2025,28,1. FC Nürnberg,Hamburger SV,0,3
+05.04.2025,28,Fortuna Düsseldorf,Preußen Münster,1,0
+05.04.2025,28,SV Darmstadt 98,SpVgg Greuther Fürth,1,0
+05.04.2025,28,1. FC Köln,Hertha BSC,0,1
+06.04.2025,28,FC Schalke 04,SSV Ulm 1846,2,1
+06.04.2025,28,1. FC Magdeburg,1. FC Kaiserslautern,2,0
+06.04.2025,28,SV Elversberg,SSV Jahn Regensburg,6,0
+11.04.2025,29,Hamburger SV,Eintracht Braunschweig,2,4
+11.04.2025,29,SpVgg Greuther Fürth,1. FC Köln,1,1
+12.04.2025,29,Hertha BSC,SV Darmstadt 98,1,1
+12.04.2025,29,Hannover 96,SV Elversberg,1,3
+12.04.2025,29,SSV Ulm 1846,1. FC Magdeburg,1,0
+12.04.2025,29,1. FC Kaiserslautern,1. FC Nürnberg,1,2
+13.04.2025,29,Preußen Münster,Karlsruher SC,1,1
+13.04.2025,29,SSV Jahn Regensburg,FC Schalke 04,2,0
+13.04.2025,29,SC Paderborn 07,Fortuna Düsseldorf,1,2
+19.04.2025,30,1. FC Nürnberg,SC Paderborn 07,2,3
+19.04.2025,30,Eintracht Braunschweig,1. FC Kaiserslautern,2,0
+19.04.2025,30,SV Elversberg,Fortuna Düsseldorf,1,1
+19.04.2025,30,FC Schalke 04,Hamburger SV,2,2
+20.04.2025,30,1. FC Köln,Preußen Münster,3,1
+20.04.2025,30,Karlsruher SC,SpVgg Greuther Fürth,1,0
+20.04.2025,30,SV Darmstadt 98,Hannover 96,3,1
+20.04.2025,30,SSV Ulm 1846,Hertha BSC,2,3
+20.04.2025,30,1. FC Magdeburg,SSV Jahn Regensburg,3,0
+25.04.2025,31,Hertha BSC,1. FC Magdeburg,1,1
+25.04.2025,31,SpVgg Greuther Fürth,SSV Ulm 1846,0,1
+26.04.2025,31,Preußen Münster,SV Darmstadt 98,1,1
+26.04.2025,31,SSV Jahn Regensburg,Eintracht Braunschweig,1,1
+26.04.2025,31,SC Paderborn 07,SV Elversberg,1,1
+26.04.2025,31,Fortuna Düsseldorf,1. FC Nürnberg,3,3
+27.04.2025,31,Hamburger SV,Karlsruher SC,1,2
+27.04.2025,31,1. FC Kaiserslautern,FC Schalke 04,2,1
+27.04.2025,31,Hannover 96,1. FC Köln,1,0
+02.05.2025,32,FC Schalke 04,SC Paderborn 07,0,2
+02.05.2025,32,1. FC Magdeburg,Preußen Münster,0,5
+03.05.2025,32,Eintracht Braunschweig,Fortuna Düsseldorf,2,2
+03.05.2025,32,SV Darmstadt 98,Hamburger SV,0,4
+03.05.2025,32,SSV Ulm 1846,Hannover 96,1,2
+03.05.2025,32,1. FC Köln,SSV Jahn Regensburg,1,1
+04.05.2025,32,Hertha BSC,SpVgg Greuther Fürth,1,0
+04.05.2025,32,1. FC Nürnberg,SV Elversberg,1,3
+04.05.2025,32,Karlsruher SC,1. FC Kaiserslautern,2,2
+09.05.2025,33,1. FC Nürnberg,1. FC Köln,1,2
+09.05.2025,33,Preußen Münster,Hertha BSC,2,0
+10.05.2025,33,Fortuna Düsseldorf,FC Schalke 04,2,0
+10.05.2025,33,SC Paderborn 07,1. FC Magdeburg,2,1
+10.05.2025,33,SV Elversberg,Eintracht Braunschweig,3,0
+10.05.2025,33,Hamburger SV,SSV Ulm 1846,6,1
+11.05.2025,33,1. FC Kaiserslautern,SV Darmstadt 98,2,1
+11.05.2025,33,Hannover 96,SpVgg Greuther Fürth,1,1
+11.05.2025,33,SSV Jahn Regensburg,Karlsruher SC,2,2
+18.05.2025,34,1. FC Köln,1. FC Kaiserslautern,4,0
+18.05.2025,34,FC Schalke 04,SV Elversberg,1,2
+18.05.2025,34,Hertha BSC,Hannover 96,1,1
+18.05.2025,34,Karlsruher SC,SC Paderborn 07,3,0
+18.05.2025,34,Eintracht Braunschweig,1. FC Nürnberg,1,4
+18.05.2025,34,SV Darmstadt 98,SSV Jahn Regensburg,3,1
+18.05.2025,34,SSV Ulm 1846,Preußen Münster,2,2
+18.05.2025,34,SpVgg Greuther Fürth,Hamburger SV,3,2
+18.05.2025,34,1. FC Magdeburg,Fortuna Düsseldorf,4,2

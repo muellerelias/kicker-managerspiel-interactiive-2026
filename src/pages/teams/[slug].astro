@@ -213,6 +213,71 @@ const gesamt = ratings ? overallMean(ratings) : 0;
     line-height: 1.2;
   }
 
+  @media (max-width: 640px) {
+    .meta-box {
+      flex-direction: column;
+    }
+
+    .meta-grid {
+      order: 1;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .meta-overall {
+      order: 2;
+      min-width: 0;
+      width: 100%;
+      padding: 0.75rem 0 0;
+      border-right: none;
+      border-top: 1px solid var(--border);
+    }
+  }
+
+  @media (max-width: 420px) {
+    .meta-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (max-width: 640px) {
+    .accordion-item summary {
+      display: grid;
+      grid-template-columns: auto 1fr auto;
+      column-gap: 0.6rem;
+      row-gap: 0.6rem;
+      grid-template-areas:
+        "marker label number"
+        "bar bar bar";
+      align-items: center;
+    }
+
+    .accordion-item summary::before {
+      grid-area: marker;
+      margin-right: 0;
+    }
+
+    .criterion-label {
+      grid-area: label;
+    }
+
+    .criterion-score {
+      display: contents;
+    }
+
+    .score-number {
+      grid-area: number;
+    }
+
+    .score-bar {
+      grid-area: bar;
+      width: 100%;
+    }
+
+    .score-tick {
+      flex: 1;
+    }
+  }
+
   .rating-category {
     margin-bottom: 2rem;
   }

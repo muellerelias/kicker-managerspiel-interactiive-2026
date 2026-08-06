@@ -29,16 +29,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "bayern-muenchen": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 5, "Seit Jahren der klare Titelfavorit mit dem größten Kader- und Finanzvorsprung der Liga."),
-      c("offensivpotenzial", "Offensivpotenzial", 5, "Mit Abstand torgefährlichste Offensive der Liga, angeführt von Kane und einem tiefen Kreis an Angreifern."),
-      c("defensivstaerke", "Defensivstärke", 5, "Kompakte, gut organisierte Defensive mit konstant hoher Zu-Null-Quote in der Vergangenheit."),
+      c("offensivpotenzial", "Offensivpotenzial", 5, "Ø 3,25 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 122:36 in 34 Spielen; 2024/25 [1. Liga]: 99:32); Streuung σ=1,51, davon 4 Spiele ≥1,5σ über und 1 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 5, "Ø 1,00 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 36 Gegentore; 2024/25 [1. Liga]: 32); σ=1,00, davon 6 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 5, "Klar erkennbarer dominanter Ballbesitzfußball mit hohem Pressing – seit Jahren Markenzeichen des Klubs."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 5, "Größter und finanziell stabilster Klub der Liga mit durchgehend professionellen Strukturen."),
       c("trainerstabilitaet", "Trainerstabilität", 4, "Neuer Trainer, aber mit klarer Philosophie und großzügigem Vertrauen des Vereins ausgestattet."),
       c("kaderkontinuitaet", "Kaderkontinuität", 3, "Kern der Mannschaft bleibt zusammen, punktuelle Transfers verändern aber jährlich Teile des Kaders."),
-      c("leistungskonstanz", "Leistungskonstanz", 5, "Verliert selten mehrere Spiele in Folge und liefert über die Saison das konstanteste Niveau der Liga."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 5, "Seit über einem Jahrzehnt durchgehend an der Tabellenspitze."),
+      c("leistungskonstanz", "Leistungskonstanz", 4, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 2,62, 2024/25: 2,41, 2023/24: 2,12, 2022/23: 2,09, 2021/22: 2,26 (σ=0,20)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 5, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 1 (1.Liga), 2024/25: Platz 1 (1.Liga), 2023/24: Platz 3 (1.Liga), 2022/23: Platz 1 (1.Liga), 2021/22: Platz 1 (1.Liga) (σ=0,80 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 4, "Kern der Startelf ist über weite Strecken gesetzt, punktuelle Rotation vor allem im Mittelfeld."),
@@ -54,16 +54,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "bayer-leverkusen": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 4, "Nach dem Meistertitel weiterhin klarer Kandidat für die vorderen Plätze, auch wenn Bayern enteilt ist."),
-      c("offensivpotenzial", "Offensivpotenzial", 4, "Trotz einiger Abgänge weiterhin eine der torgefährlichsten Offensivreihen der Liga."),
-      c("defensivstaerke", "Defensivstärke", 4, "Solide, gut organisierte Abwehr, die unter der Meistersaison Maßstäbe gesetzt hat."),
+      c("offensivpotenzial", "Offensivpotenzial", 5, "Ø 2,06 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 68:47 in 34 Spielen; 2024/25 [1. Liga]: 72:43); Streuung σ=1,45, davon 4 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 5, "Ø 1,32 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 47 Gegentore; 2024/25 [1. Liga]: 43); σ=1,09, davon 12 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 3, "Klares System vorhanden, befindet sich nach dem Trainerwechsel aber in der Neuausrichtung."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 4, "Solide Vereinsstrukturen und klare sportliche Leitung, auch nach dem Umbruch an der Seitenlinie."),
       c("trainerstabilitaet", "Trainerstabilität", 3, "Neuer Cheftrainer nach dem Abgang des Meistertrainers, Anpassung an neue Idee läuft noch."),
       c("kaderkontinuitaet", "Kaderkontinuität", 3, "Mehrere Schlüsselspieler des Meisterkaders wurden verkauft, Ersatz muss sich erst einspielen."),
-      c("leistungskonstanz", "Leistungskonstanz", 3, "Kann auf hohem Niveau spielen, in Umbruchsphasen aber anfälliger für Schwankungen."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 4, "Seit Jahren im vorderen Tabellendrittel etabliert."),
+      c("leistungskonstanz", "Leistungskonstanz", 2, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 1,74, 2024/25: 2,03, 2023/24: 2,65, 2022/23: 1,47, 2021/22: 1,88 (σ=0,39)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 4, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 6 (1.Liga), 2024/25: Platz 2 (1.Liga), 2023/24: Platz 1 (1.Liga), 2022/23: Platz 6 (1.Liga), 2021/22: Platz 3 (1.Liga) (σ=2,06 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 3, "Mehrere Positionen sind nach den Abgängen neu zu besetzen, was Rotation wahrscheinlicher macht."),
@@ -79,16 +79,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "rb-leipzig": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 4, "Kaderqualität reicht regelmäßig für einen Platz im oberen Tabellendrittel und die Champions-League-Ränge."),
-      c("offensivpotenzial", "Offensivpotenzial", 4, "Schnelles, vertikales Umschaltspiel sorgt konstant für hohe Torgefahr."),
-      c("defensivstaerke", "Defensivstärke", 3, "Grundsätzlich stabil, aber durch jährliche Kaderumbrüche nicht immer über die volle Saison konstant."),
+      c("offensivpotenzial", "Offensivpotenzial", 4, "Ø 1,75 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 66:47 in 34 Spielen; 2024/25 [1. Liga]: 53:48); Streuung σ=1,35, davon 5 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 5, "Ø 1,40 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 47 Gegentore; 2024/25 [1. Liga]: 48); σ=1,53, davon 8 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 3, "Klares Pressing-Konzept ist erkennbar, wird aber je nach Trainer unterschiedlich interpretiert."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 3, "Klare Vereinsstruktur, aber wiederkehrende Diskussionen um sportliche Ausrichtung und Führungspersonal."),
       c("trainerstabilitaet", "Trainerstabilität", 2, "Häufige Trainerwechsel in den letzten Jahren erschweren eine langfristig konstante Spielidee."),
       c("kaderkontinuitaet", "Kaderkontinuität", 2, "Verkauft nahezu jeden Sommer Leistungsträger, wodurch sich die Mannschaft laufend neu finden muss."),
-      c("leistungskonstanz", "Leistungskonstanz", 3, "Phasenweise sehr stark, dazwischen aber auch überraschende Ausrutscher gegen schwächere Gegner."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 4, "Seit dem Aufstieg durchgehend im oberen Tabellendrittel vertreten."),
+      c("leistungskonstanz", "Leistungskonstanz", 5, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 1,91, 2024/25: 1,50, 2023/24: 1,91, 2022/23: 1,94, 2021/22: 1,71 (σ=0,17)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 5, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 3 (1.Liga), 2024/25: Platz 7 (1.Liga), 2023/24: Platz 4 (1.Liga), 2022/23: Platz 3 (1.Liga), 2021/22: Platz 4 (1.Liga) (σ=1,47 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 3, "Breiter, talentierter Kader sorgt für gesunde Konkurrenz, aber auch für wechselnde Stammelf."),
@@ -104,16 +104,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "borussia-dortmund": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 4, "Kader ist auf Papier für die Champions-League-Plätze ausgelegt, auch wenn die Umsetzung schwankt."),
-      c("offensivpotenzial", "Offensivpotenzial", 4, "Verfügt traditionell über eine der torgefährlichsten Offensiven der Liga."),
-      c("defensivstaerke", "Defensivstärke", 3, "Immer wieder anfällig für individuelle Fehler, die die eigentlich vorhandene Qualität konterkarieren."),
+      c("offensivpotenzial", "Offensivpotenzial", 5, "Ø 2,07 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 70:34 in 34 Spielen; 2024/25 [1. Liga]: 71:51); Streuung σ=1,25, davon 9 Spiele ≥1,5σ über und 7 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 5, "Ø 1,25 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 34 Gegentore; 2024/25 [1. Liga]: 51); σ=1,13, davon 8 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 4, "Offensiv ausgerichteter, intensiver Fußball ist klar als Markenzeichen erkennbar."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 4, "Großer, finanziell solider Klub mit klaren, langfristigen Strukturen."),
       c("trainerstabilitaet", "Trainerstabilität", 3, "Nach mehreren Trainerwechseln der letzten Jahre aktuell auf der Suche nach langfristiger Konstanz."),
       c("kaderkontinuitaet", "Kaderkontinuität", 3, "Kern bleibt oft zusammen, einzelne Schlüsseltransfers verändern aber regelmäßig das Gefüge."),
-      c("leistungskonstanz", "Leistungskonstanz", 2, "Bekannt für große Schwankungen zwischen Champions-League-Form und überraschenden Ligapleiten."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 3, "Landet meist im oberen Drittel, die genaue Platzierung schwankt aber spürbar von Jahr zu Jahr."),
+      c("leistungskonstanz", "Leistungskonstanz", 4, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 2,15, 2024/25: 1,68, 2023/24: 1,85, 2022/23: 2,09, 2021/22: 2,03 (σ=0,17)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 5, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 2 (1.Liga), 2024/25: Platz 4 (1.Liga), 2023/24: Platz 5 (1.Liga), 2022/23: Platz 2 (1.Liga), 2021/22: Platz 2 (1.Liga) (σ=1,26 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 3, "Kern ist gesetzt, einzelne Positionen werden aber je nach Form und Gegner rotiert."),
@@ -129,16 +129,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "eintracht-frankfurt": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 3, "Kader reicht regelmäßig für einen Platz im internationalen Geschäft, ein Titelrennen ist aber unrealistisch."),
-      c("offensivpotenzial", "Offensivpotenzial", 4, "Mutiger, vertikaler Offensivfußball macht das Team zu einer der torgefährlichsten Mannschaften im Mittelfeld der Liga."),
-      c("defensivstaerke", "Defensivstärke", 3, "Offensiv ausgerichtetes System geht gelegentlich zulasten der defensiven Stabilität."),
+      c("offensivpotenzial", "Offensivpotenzial", 4, "Ø 1,90 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 61:65 in 34 Spielen; 2024/25 [1. Liga]: 68:46); Streuung σ=1,38, davon 8 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 2, "Ø 1,63 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 65 Gegentore; 2024/25 [1. Liga]: 46); σ=1,32, davon 5 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 4, "Offensives, risikofreudiges Spiel mit hohem Tempo ist klar als Stil erkennbar."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 4, "Professionell geführter Klub mit kontinuierlicher sportlicher Leitung und klarer Entwicklungslinie."),
       c("trainerstabilitaet", "Trainerstabilität", 3, "Trainer mit klarer Idee, allerdings ohne jahrelange Kontinuität an der Seitenlinie."),
       c("kaderkontinuitaet", "Kaderkontinuität", 2, "Verkauft nahezu jährlich seine besten Offensivspieler, was ständigen Umbau erfordert."),
-      c("leistungskonstanz", "Leistungskonstanz", 3, "Kann über weite Strecken stark performen, verliert aber auch überraschend gegen schwächere Gegner."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 3, "Pendelt seit Jahren zwischen internationalen Plätzen und gesichertem Mittelfeld."),
+      c("leistungskonstanz", "Leistungskonstanz", 4, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 1,29, 2024/25: 1,76, 2023/24: 1,38, 2022/23: 1,47, 2021/22: 1,24 (σ=0,19)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 3, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 8 (1.Liga), 2024/25: Platz 3 (1.Liga), 2023/24: Platz 6 (1.Liga), 2022/23: Platz 7 (1.Liga), 2021/22: Platz 11 (1.Liga) (σ=2,61 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 3, "Stammformation weitgehend erkennbar, verändert sich aber durch Verkäufe von Sommer zu Sommer."),
@@ -154,16 +154,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "vfb-stuttgart": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 3, "Nach dem Vize-Meister-Jahr weiterhin klarer Kandidat für die internationalen Plätze."),
-      c("offensivpotenzial", "Offensivpotenzial", 4, "Mutiger, kombinationsstarker Offensivfußball sorgt konstant für hohe Torgefahr."),
-      c("defensivstaerke", "Defensivstärke", 3, "Grundsätzlich solide organisiert, aber durch die offensive Ausrichtung nicht immer die stabilste Defensive."),
+      c("offensivpotenzial", "Offensivpotenzial", 5, "Ø 1,99 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 71:49 in 34 Spielen; 2024/25 [1. Liga]: 64:53); Streuung σ=1,33, davon 10 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 3, "Ø 1,50 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 49 Gegentore; 2024/25 [1. Liga]: 53); σ=1,25, davon 5 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 4, "Klar erkennbarer, mutiger Ballbesitzfußball unter Trainer Hoeneß."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 4, "Nach Jahren der Konsolidierung inzwischen sportlich wie strukturell klar aufgestellt."),
       c("trainerstabilitaet", "Trainerstabilität", 4, "Etablierter Trainer mit klarer Idee und großem Rückhalt im Verein."),
       c("kaderkontinuitaet", "Kaderkontinuität", 3, "Kern der erfolgreichen Vorjahre bleibt weitgehend zusammen, einzelne Abgänge sind aber zu kompensieren."),
-      c("leistungskonstanz", "Leistungskonstanz", 3, "Insgesamt konstantes Niveau, mit vereinzelten Schwächephasen gegen tiefstehende Gegner."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 2, "Erst seit wenigen Jahren wieder im oberen Tabellendrittel etabliert, Platzierungen schwankten davor stark."),
+      c("leistungskonstanz", "Leistungskonstanz", 1, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 1,82, 2024/25: 1,47, 2023/24: 2,15, 2022/23: 0,97, 2021/22: 0,97 (σ=0,47)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 1, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 4 (1.Liga), 2024/25: Platz 9 (1.Liga), 2023/24: Platz 2 (1.Liga), 2022/23: Platz 16 (1.Liga), 2021/22: Platz 15 (1.Liga) (σ=5,64 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 3, "Stammelf weitgehend gesetzt, mit gesunder Konkurrenz auf einzelnen Positionen."),
@@ -179,16 +179,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "sc-freiburg": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 3, "Regelmäßig im gesicherten Mittelfeld bis unteren internationalen Bereich, ein Abstiegskampf ist unwahrscheinlich."),
-      c("offensivpotenzial", "Offensivpotenzial", 2, "Fehlt meist an einem konstant torgefährlichen Angreifer, Tore werden breit verteilt erarbeitet."),
-      c("defensivstaerke", "Defensivstärke", 3, "Diszipliniertes, gut organisiertes Defensivverhalten ist traditionell eine Stärke des Klubs."),
+      c("offensivpotenzial", "Offensivpotenzial", 3, "Ø 1,47 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 51:57 in 34 Spielen; 2024/25 [1. Liga]: 49:53); Streuung σ=1,22, davon 4 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 3, "Ø 1,62 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 57 Gegentore; 2024/25 [1. Liga]: 53); σ=1,41, davon 8 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 4, "Sehr diszipliniertes, laufintensives System mit klarer taktischer Handschrift."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 5, "Gilt seit Jahrzehnten als eines der bestgeführten und stabilsten Umfelder der Liga."),
       c("trainerstabilitaet", "Trainerstabilität", 3, "Nach jahrzehntelanger Ära des früheren Trainers befindet sich der Klub in der Post-Streich-Konsolidierung."),
       c("kaderkontinuitaet", "Kaderkontinuität", 3, "Kern der Mannschaft bleibt meist zusammen, einzelne Leistungsträger werden aber verkauft."),
-      c("leistungskonstanz", "Leistungskonstanz", 3, "Über weite Strecken der Saison konstant, mit gelegentlichen Formtälern."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 4, "Seit vielen Jahren zuverlässig im gesicherten Mittelfeld bis oberen Drittel."),
+      c("leistungskonstanz", "Leistungskonstanz", 4, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 1,38, 2024/25: 1,62, 2023/24: 1,24, 2022/23: 1,74, 2021/22: 1,62 (σ=0,18)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 4, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 7 (1.Liga), 2024/25: Platz 5 (1.Liga), 2023/24: Platz 10 (1.Liga), 2022/23: Platz 5 (1.Liga), 2021/22: Platz 6 (1.Liga) (σ=1,85 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 3, "Stammelf ist über weite Strecken der Saison erkennbar und wenig experimentierfreudig."),
@@ -204,16 +204,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "tsg-hoffenheim": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 2, "Kader bewegt sich meist im unteren Mittelfeld, mit Nähe zur Abstiegszone in schwachen Phasen."),
-      c("offensivpotenzial", "Offensivpotenzial", 3, "Grundsätzlich vorhandene Offensivqualität, die aber nicht konstant abgerufen wird."),
-      c("defensivstaerke", "Defensivstärke", 2, "Anfällige Defensive mit wenigen Zu-Null-Spielen über die letzten Spielzeiten."),
+      c("offensivpotenzial", "Offensivpotenzial", 4, "Ø 1,63 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 65:52 in 34 Spielen; 2024/25 [1. Liga]: 46:68); Streuung σ=1,31, davon 6 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 1, "Ø 1,76 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 52 Gegentore; 2024/25 [1. Liga]: 68); σ=1,37, davon 10 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 2, "Häufige Trainer- und Systemwechsel verhindern eine klar erkennbare Spielidee."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 2, "Wiederholte Umbrüche in der sportlichen Leitung sorgen für spürbare Unruhe."),
       c("trainerstabilitaet", "Trainerstabilität", 2, "Zählt zu den Klubs mit den häufigsten Trainerwechseln der letzten Jahre."),
       c("kaderkontinuitaet", "Kaderkontinuität", 2, "Kader wird regelmäßig umgebaut, ohne dass sich ein fester Stamm etabliert."),
-      c("leistungskonstanz", "Leistungskonstanz", 2, "Große Schwankungen zwischen guten und schwachen Phasen innerhalb einer Saison."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 2, "Platzierungen schwanken über die letzten Jahre deutlich zwischen Mittelfeld und Abstiegskampf."),
+      c("leistungskonstanz", "Leistungskonstanz", 3, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 1,79, 2024/25: 0,94, 2023/24: 1,35, 2022/23: 1,06, 2021/22: 1,35 (σ=0,30)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 2, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 5 (1.Liga), 2024/25: Platz 15 (1.Liga), 2023/24: Platz 7 (1.Liga), 2022/23: Platz 12 (1.Liga), 2021/22: Platz 9 (1.Liga) (σ=3,56 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 2, "Häufige System- und Personalwechsel sorgen für wenig gesetzte Positionen."),
@@ -229,16 +229,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "werder-bremen": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 2, "Kader ist meist auf gesichertes Mittelfeld ausgelegt, ein Abstiegskampf ist aber nicht ausgeschlossen."),
-      c("offensivpotenzial", "Offensivpotenzial", 3, "Junge, spielfreudige Offensivspieler sorgen für ansprechende Torgefahr."),
-      c("defensivstaerke", "Defensivstärke", 2, "Immer wieder anfällig für individuelle Fehler in der Abwehrreihe."),
+      c("offensivpotenzial", "Offensivpotenzial", 2, "Ø 1,34 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 37:60 in 34 Spielen; 2024/25 [1. Liga]: 54:57); Streuung σ=1,24, davon 6 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 2, "Ø 1,72 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 60 Gegentore; 2024/25 [1. Liga]: 57); σ=1,38, davon 8 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 3, "Offensiv ausgerichteter, mutiger Fußball mit erkennbarer Handschrift des Trainers."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 3, "Nach der Rückkehr in die Liga inzwischen wieder solide und ruhig geführt."),
       c("trainerstabilitaet", "Trainerstabilität", 3, "Trainer mit mehrjähriger Amtszeit und klarer Idee für die Mannschaft."),
       c("kaderkontinuitaet", "Kaderkontinuität", 3, "Kern der Mannschaft bleibt über mehrere Spielzeiten weitgehend zusammen."),
-      c("leistungskonstanz", "Leistungskonstanz", 2, "Junge Mannschaft zeigt noch deutliche Schwankungen zwischen starken und schwachen Auftritten."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 3, "Seit dem Wiederaufstieg stabil im gesicherten Mittelfeld etabliert."),
+      c("leistungskonstanz", "Leistungskonstanz", 2, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 0,94, 2024/25: 1,50, 2023/24: 1,24, 2022/23: 1,06, 2021/22: 1,85 (σ=0,33)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 2, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 15 (1.Liga), 2024/25: Platz 8 (1.Liga), 2023/24: Platz 9 (1.Liga), 2022/23: Platz 13 (1.Liga), 2021/22: Platz 2 (2.Liga) (σ=4,34 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 3, "Stammelf ist über weite Strecken erkennbar, mit punktueller Rotation bei jungen Spielern."),
@@ -254,16 +254,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "vfl-wolfsburg": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 2, "Kader bewegt sich meist im unteren Mittelfeld mit Nähe zur Abstiegszone."),
-      c("offensivpotenzial", "Offensivpotenzial", 2, "Erzielt in den letzten Spielzeiten vergleichsweise wenige Tore im Ligavergleich."),
-      c("defensivstaerke", "Defensivstärke", 3, "Meist solide organisierte Abwehr als Basis der letzten Spielzeiten."),
+      c("offensivpotenzial", "Offensivpotenzial", 3, "Ø 1,49 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 45:69 in 34 Spielen; 2024/25 [1. Liga]: 56:54); Streuung σ=1,19, davon 3 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 1, "Ø 1,81 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 69 Gegentore; 2024/25 [1. Liga]: 54); σ=1,46, davon 7 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 2, "Häufige Trainer- und Konzeptwechsel verhindern eine klar wiedererkennbare Spielidee."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 2, "Wiederholte Umbrüche in sportlicher Leitung und Kader sorgen für Unruhe im Umfeld."),
       c("trainerstabilitaet", "Trainerstabilität", 2, "Mehrere Trainerwechsel in den letzten Jahren ohne langfristige Kontinuität."),
       c("kaderkontinuitaet", "Kaderkontinuität", 2, "Kader wird häufig umgebaut, ohne dass sich ein stabiler Stamm etabliert."),
-      c("leistungskonstanz", "Leistungskonstanz", 2, "Deutliche Schwankungen zwischen guten und schwachen Phasen innerhalb einer Saison."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 3, "Bewegt sich seit Jahren im unteren bis mittleren Tabellenbereich."),
+      c("leistungskonstanz", "Leistungskonstanz", 3, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 0,85, 2024/25: 1,26, 2023/24: 1,09, 2022/23: 1,44, 2021/22: 1,24 (σ=0,20)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 3, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 16 (1.Liga), 2024/25: Platz 11 (1.Liga), 2023/24: Platz 12 (1.Liga), 2022/23: Platz 8 (1.Liga), 2021/22: Platz 12 (1.Liga) (σ=2,56 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 2, "Wechselnde Trainer und Systeme sorgen für wenig konstant gesetzte Positionen."),
@@ -279,16 +279,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "borussia-moenchengladbach": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 2, "Nach schwierigen Jahren aktuell eher im unteren Mittelfeld mit Nähe zur Abstiegszone einzuordnen."),
-      c("offensivpotenzial", "Offensivpotenzial", 2, "Offensive konnte in den letzten Spielzeiten selten konstante Torgefahr entwickeln."),
-      c("defensivstaerke", "Defensivstärke", 2, "Anfällige Defensive mit wenigen Zu-Null-Spielen in den letzten Jahren."),
+      c("offensivpotenzial", "Offensivpotenzial", 2, "Ø 1,43 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 42:53 in 34 Spielen; 2024/25 [1. Liga]: 55:57); Streuung σ=1,30, davon 8 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 2, "Ø 1,62 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 53 Gegentore; 2024/25 [1. Liga]: 57); σ=1,50, davon 7 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 2, "Seit dem Ende der erfolgreichen Rose-Ära fehlt eine klar wiedererkennbare Spielidee."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 2, "Mehrere Umbrüche in sportlicher Leitung und Kader seit dem Ende der Erfolgsjahre."),
       c("trainerstabilitaet", "Trainerstabilität", 2, "Häufige Trainerwechsel ohne die Rückkehr zu langfristiger Kontinuität."),
       c("kaderkontinuitaet", "Kaderkontinuität", 2, "Verlust mehrerer Leistungsträger der Erfolgsjahre erfordert laufenden Kaderumbau."),
-      c("leistungskonstanz", "Leistungskonstanz", 2, "Deutliche Schwankungen zwischen einzelnen guten Ergebnissen und längeren Formtälern."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 2, "Deutlicher Abfall gegenüber den internationalen Plätzen der Vorjahre, Tendenz noch nicht stabilisiert."),
+      c("leistungskonstanz", "Leistungskonstanz", 5, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 1,12, 2024/25: 1,32, 2023/24: 1,00, 2022/23: 1,26, 2021/22: 1,32 (σ=0,13)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 5, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 12 (1.Liga), 2024/25: Platz 10 (1.Liga), 2023/24: Platz 14 (1.Liga), 2022/23: Platz 10 (1.Liga), 2021/22: Platz 10 (1.Liga) (σ=1,60 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 2, "Umbauphase sorgt für offene Positionen und häufigere Rotation."),
@@ -304,16 +304,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "fc-augsburg": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 2, "Kader ist traditionell auf den Klassenerhalt im gesicherten Mittelfeld ausgelegt."),
-      c("offensivpotenzial", "Offensivpotenzial", 2, "Erzielt meist eine überschaubare Anzahl an Toren im Ligavergleich."),
-      c("defensivstaerke", "Defensivstärke", 2, "Solide, aber nicht herausragende Defensivleistungen über die letzten Spielzeiten."),
+      c("offensivpotenzial", "Offensivpotenzial", 2, "Ø 1,18 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 45:61 in 34 Spielen; 2024/25 [1. Liga]: 35:51); Streuung σ=0,98, davon 7 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 2, "Ø 1,65 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 61 Gegentore; 2024/25 [1. Liga]: 51); σ=1,45, davon 9 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 3, "Pragmatischer, gut organisierter Fußball mit klarer, wiedererkennbarer Handschrift."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 4, "Ruhig und kontinuierlich geführter Klub mit klaren, langfristigen Strukturen."),
       c("trainerstabilitaet", "Trainerstabilität", 3, "Vergleichsweise stabile Trainersituation mit klarer Idee für die Mannschaft."),
       c("kaderkontinuitaet", "Kaderkontinuität", 3, "Kern der Mannschaft bleibt über mehrere Spielzeiten weitgehend zusammen."),
-      c("leistungskonstanz", "Leistungskonstanz", 3, "Zeigt über die Saison ein vergleichsweise konstantes, wenn auch limitiertes Niveau."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 4, "Seit vielen Jahren zuverlässig im gesicherten Mittelfeld der Liga."),
+      c("leistungskonstanz", "Leistungskonstanz", 5, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 1,26, 2024/25: 1,26, 2023/24: 1,15, 2022/23: 1,00, 2021/22: 1,12 (σ=0,10)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 4, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 9 (1.Liga), 2024/25: Platz 12 (1.Liga), 2023/24: Platz 11 (1.Liga), 2022/23: Platz 15 (1.Liga), 2021/22: Platz 14 (1.Liga) (σ=2,14 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 3, "Stammelf ist über weite Strecken der Saison erkennbar und wenig experimentierfreudig."),
@@ -329,16 +329,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "mainz-05": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 3, "Kader reicht regelmäßig für das gesicherte bis obere Mittelfeld, ein internationaler Platz ist in guten Jahren möglich."),
-      c("offensivpotenzial", "Offensivpotenzial", 3, "Energiegeladener Offensivfußball sorgt für solide, wenn auch nicht herausragende Torgefahr."),
-      c("defensivstaerke", "Defensivstärke", 3, "Aggressives, gut organisiertes Pressing macht die Defensive über weite Strecken stabil."),
+      c("offensivpotenzial", "Offensivpotenzial", 2, "Ø 1,46 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 44:53 in 34 Spielen; 2024/25 [1. Liga]: 55:43); Streuung σ=1,13, davon 2 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 4, "Ø 1,41 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 53 Gegentore; 2024/25 [1. Liga]: 43); σ=1,13, davon 6 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 3, "Laufintensiver, druckvoller Fußball ist klar als Stil des Klubs erkennbar."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 4, "Solide, ruhig geführte Vereinsstrukturen mit klarer sportlicher Linie."),
       c("trainerstabilitaet", "Trainerstabilität", 3, "Trainer mit klarer Idee und wachsendem Vertrauen des Vereins."),
       c("kaderkontinuitaet", "Kaderkontinuität", 3, "Kern der Mannschaft bleibt über mehrere Spielzeiten weitgehend zusammen."),
-      c("leistungskonstanz", "Leistungskonstanz", 3, "Zeigt über die Saison meist ein solides, wenn auch nicht immer konstantes Niveau."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 3, "Bewegt sich seit Jahren im gesicherten Mittelfeld mit gelegentlichen Ausreißern nach oben."),
+      c("leistungskonstanz", "Leistungskonstanz", 5, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 1,18, 2024/25: 1,53, 2023/24: 1,03, 2022/23: 1,35, 2021/22: 1,35 (σ=0,17)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 4, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 10 (1.Liga), 2024/25: Platz 6 (1.Liga), 2023/24: Platz 13 (1.Liga), 2022/23: Platz 9 (1.Liga), 2021/22: Platz 8 (1.Liga) (σ=2,32 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 3, "Stammelf ist über weite Strecken der Saison erkennbar."),
@@ -354,16 +354,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "union-berlin": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 2, "Nach dem Fall aus dem internationalen Geschäft aktuell eher im unteren Mittelfeld mit Nähe zur Abstiegszone."),
-      c("offensivpotenzial", "Offensivpotenzial", 2, "Offensive konnte zuletzt nur selten konstante Torgefahr entwickeln."),
-      c("defensivstaerke", "Defensivstärke", 2, "Die einst prägende defensive Stabilität ist in den letzten Spielzeiten spürbar zurückgegangen."),
+      c("offensivpotenzial", "Offensivpotenzial", 1, "Ø 1,16 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 44:58 in 34 Spielen; 2024/25 [1. Liga]: 35:51); Streuung σ=1,11, davon 7 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 3, "Ø 1,60 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 58 Gegentore; 2024/25 [1. Liga]: 51); σ=1,33, davon 6 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 2, "Die früher klar erkennbare, kompakte Spielidee ist durch mehrere Umbrüche verwässert worden."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 2, "Nach Jahren beispielhafter Kontinuität sorgten mehrere Umbrüche zuletzt für spürbare Unruhe."),
       c("trainerstabilitaet", "Trainerstabilität", 1, "Mehrere Trainerwechsel innerhalb kurzer Zeit nach jahrelanger Kontinuität davor."),
       c("kaderkontinuitaet", "Kaderkontinuität", 2, "Abgang mehrerer prägender Spieler erfordert einen umfassenden Kaderumbau."),
-      c("leistungskonstanz", "Leistungskonstanz", 1, "Große Schwankungen und ein deutlicher Formeinbruch gegenüber den internationalen Vorjahren."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 2, "Starker Abfall von den internationalen Plätzen in Richtung unteres Tabellendrittel."),
+      c("leistungskonstanz", "Leistungskonstanz", 2, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 1,15, 2024/25: 1,18, 2023/24: 0,97, 2022/23: 1,82, 2021/22: 1,68 (σ=0,33)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 1, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 11 (1.Liga), 2024/25: Platz 13 (1.Liga), 2023/24: Platz 15 (1.Liga), 2022/23: Platz 4 (1.Liga), 2021/22: Platz 5 (1.Liga) (σ=4,36 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 2, "Umbauphase sorgt für offene Positionen und häufigere Rotation."),
@@ -379,16 +379,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "fc-st-pauli": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 1, "Kader ist auf den Klassenerhalt ausgelegt, ein Abstiegskampf ist wahrscheinlich."),
-      c("offensivpotenzial", "Offensivpotenzial", 2, "Begrenzte individuelle Offensivqualität sorgt für vergleichsweise wenige Torchancen."),
-      c("defensivstaerke", "Defensivstärke", 2, "Kompakte, kämpferische Defensivarbeit ist die Basis, ohne dabei überragend stabil zu sein."),
+      c("offensivpotenzial", "Offensivpotenzial", 1, "Ø 0,84 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 29:60 in 34 Spielen; 2024/25 [1. Liga]: 28:41); Streuung σ=0,90, davon 4 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 4, "Ø 1,49 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 60 Gegentore; 2024/25 [1. Liga]: 41); σ=1,12, davon 3 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 3, "Kämpferischer, laufintensiver Fußball mit starker Fanunterstützung prägt die klare Identität des Klubs."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 3, "Klar strukturierter, kulturell geprägter Verein mit stabilem Umfeld abseits des reinen Sports."),
       c("trainerstabilitaet", "Trainerstabilität", 3, "Trainerteam mit klarer Idee, die den Aufstieg und die erste Bundesliga-Saison geprägt hat."),
       c("kaderkontinuitaet", "Kaderkontinuität", 2, "Als Aufsteiger mit begrenztem Budget muss der Kader nach jeder Saison neu zusammengestellt werden."),
-      c("leistungskonstanz", "Leistungskonstanz", 2, "Als kleinerer Kader anfälliger für Leistungsschwankungen über eine lange Saison."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 1, "Noch keine mehrjährige Bundesliga-Historie, Tabellenplatzierung daher schwer einzuschätzen."),
+      c("leistungskonstanz", "Leistungskonstanz", 1, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 0,76, 2024/25: 0,94, 2023/24: 2,03, 2022/23: 1,71, 2021/22: 1,68 (σ=0,48)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 2, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 18 (1.Liga), 2024/25: Platz 14 (1.Liga), 2023/24: Platz 1 (2.Liga), 2022/23: Platz 5 (2.Liga), 2021/22: Platz 5 (2.Liga) (σ=3,38 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 3, "Kleinerer Kader sorgt für eine über weite Strecken vorhersehbare Stammelf."),
@@ -404,16 +404,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "1-fc-koeln": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 1, "Als Aufsteiger ist der Klassenerhalt das realistische Saisonziel, ein Abstiegskampf ist wahrscheinlich."),
-      c("offensivpotenzial", "Offensivpotenzial", 2, "Zweitliga-erprobter Kader mit überschaubarer individueller Qualität für die höhere Klasse."),
-      c("defensivstaerke", "Defensivstärke", 2, "Solide Zweitliga-Defensive, deren Stabilität sich in der Bundesliga erst beweisen muss."),
+      c("offensivpotenzial", "Offensivpotenzial", 3, "Ø 1,50 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 49:63 in 34 Spielen; 2024/25 [2. Liga]: 53:38); Streuung σ=1,12, davon 5 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 4, "Ø 1,49 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 63 Gegentore; 2024/25 [2. Liga]: 38); σ=1,19, davon 4 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 2, "Die wiederkehrenden Auf- und Abstiege erschweren eine über Jahre wiedererkennbare Spielidee."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 2, "Historisch geprägt von häufiger Unruhe und wechselnden sportlichen Verantwortlichen."),
       c("trainerstabilitaet", "Trainerstabilität", 2, "Trainerposition war in der Klubgeschichte selten über mehrere Jahre konstant besetzt."),
       c("kaderkontinuitaet", "Kaderkontinuität", 2, "Aufstiegskader wird für die Bundesliga punktuell verstärkt, was Eingewöhnungszeit braucht."),
-      c("leistungskonstanz", "Leistungskonstanz", 2, "Als typischer Aufsteiger sind größere Leistungsschwankungen über die Saison wahrscheinlich."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 1, "Klassischer Fahrstuhlklub mit starken Schwankungen der Platzierung über mehrere Jahre."),
+      c("leistungskonstanz", "Leistungskonstanz", 2, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 0,94, 2024/25: 1,79, 2023/24: 0,79, 2022/23: 1,24, 2021/22: 1,53 (σ=0,37)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 2, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 14 (1.Liga), 2024/25: Platz 1 (2.Liga), 2023/24: Platz 17 (1.Liga), 2022/23: Platz 11 (1.Liga), 2021/22: Platz 7 (1.Liga) (σ=4,27 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 2, "Als Aufsteiger mit begrenzter Kadertiefe grundsätzlich planbar, aber unter Bundesliga-Belastung ungetestet."),
@@ -429,16 +429,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "hamburger-sv": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 1, "Nach 17 Jahren zweiter Liga ist der Klassenerhalt das realistische Ziel, ein Abstiegskampf ist wahrscheinlich."),
-      c("offensivpotenzial", "Offensivpotenzial", 2, "Zweitliga-erprobte Offensive, deren Durchschlagskraft sich in der höheren Klasse erst zeigen muss."),
-      c("defensivstaerke", "Defensivstärke", 2, "Solide Zweitliga-Defensive als Basis des Aufstiegs, Bundesliga-Tauglichkeit noch ungetestet."),
+      c("offensivpotenzial", "Offensivpotenzial", 4, "Ø 1,74 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 40:54 in 34 Spielen; 2024/25 [2. Liga]: 78:44); Streuung σ=1,37, davon 7 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 4, "Ø 1,44 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 54 Gegentore; 2024/25 [2. Liga]: 44); σ=1,19, davon 6 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 2, "Nach Jahren in der zweiten Liga muss sich eine für die Bundesliga tragfähige Spielidee erst etablieren."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 2, "Nach Jahren der Unruhe in der zweiten Liga zuletzt spürbar stabiler geführt, Bundesliga-Bewährungsprobe steht aber noch aus."),
       c("trainerstabilitaet", "Trainerstabilität", 3, "Trainer hat den Aufstieg begleitet und genießt entsprechendes Vertrauen für die erste Bundesliga-Saison."),
       c("kaderkontinuitaet", "Kaderkontinuität", 2, "Aufstiegskader wird für die Bundesliga punktuell verstärkt, was Eingewöhnungszeit erfordert."),
-      c("leistungskonstanz", "Leistungskonstanz", 2, "Als Aufsteiger mit fehlender Erstliga-Erfahrung sind größere Schwankungen wahrscheinlich."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 1, "Keine Bundesliga-Historie seit einer Generation, Einordnung ist entsprechend unsicher."),
+      c("leistungskonstanz", "Leistungskonstanz", 3, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 1,12, 2024/25: 1,74, 2023/24: 1,71, 2022/23: 1,94, 2021/22: 1,76 (σ=0,28)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 3, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 13 (1.Liga), 2024/25: Platz 2 (2.Liga), 2023/24: Platz 4 (2.Liga), 2022/23: Platz 3 (2.Liga), 2021/22: Platz 3 (2.Liga) (σ=3,26 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 2, "Aufstiegs-Stammelf grundsätzlich erkennbar, unter Bundesliga-Belastung aber noch ungetestet."),
@@ -454,16 +454,16 @@ export const teamRatings: Record<string, TeamRatings> = {
   "1-fc-heidenheim": [
     cat("teamqualitaet", "Teamqualität", [
       c("tabellenpotenzial", "Tabellenpotenzial", 2, "Kleinster Kader der Liga, der sich seit dem Aufstieg regelmäßig im gesicherten Mittelfeld behauptet."),
-      c("offensivpotenzial", "Offensivpotenzial", 2, "Überschaubare individuelle Offensivqualität, die durch Laufbereitschaft kompensiert wird."),
-      c("defensivstaerke", "Defensivstärke", 3, "Sehr diszipliniertes, kompaktes Defensivverhalten als Basis des Liga-Verbleibs."),
+      c("offensivpotenzial", "Offensivpotenzial", 1, "Ø 1,15 Tore/Spiel in den letzten zwei Spielzeiten (2025/26: 41:72 in 34 Spielen; 2024/25 [1. Liga]: 37:64); Streuung σ=1,10, davon 9 Spiele ≥1,5σ über und 0 Spiele ≥1,5σ unter dem eigenen Mittel (bei angenommener Normalverteilung der Tore je Spiel)."),
+      c("defensivstaerke", "Defensivstärke", 1, "Ø 2,00 Gegentore/Spiel in den letzten zwei Spielzeiten (2025/26: 72 Gegentore; 2024/25 [1. Liga]: 64); σ=1,35, davon 2 Spiele ≥1,5σ über dem Mittel (auffällig viele Gegentore) und 0 Spiele ≥1,5σ darunter (Zu-Null- bzw. Ein-Tor-Spiele)."),
       c("spielerischeIdentitaet", "Spielerische Identität", 4, "Sehr klare, seit Jahren gleichbleibende taktische Handschrift des langjährigen Trainers."),
     ]),
     cat("stabilitaet", "Stabilität & Prognosesicherheit", [
       c("vereinsstabilitaet", "Vereinsstabilität", 4, "Über Jahrzehnte konstant und mit klarer Entwicklungslinie von der Regionalliga bis in die Bundesliga geführt."),
       c("trainerstabilitaet", "Trainerstabilität", 5, "Einer der am längsten amtierenden Trainer im europäischen Profifußball, seit vielen Jahren im Amt."),
       c("kaderkontinuitaet", "Kaderkontinuität", 3, "Kern der Mannschaft bleibt trotz begrenztem Budget über mehrere Spielzeiten weitgehend zusammen."),
-      c("leistungskonstanz", "Leistungskonstanz", 3, "Zeigt für einen kleinen Kader ein bemerkenswert konstantes Leistungsniveau."),
-      c("tabellenkonstanz", "Tabellenkonstanz", 3, "Seit dem Aufstieg zuverlässig im gesicherten Mittelfeld etabliert."),
+      c("leistungskonstanz", "Leistungskonstanz", 1, "Punkteschnitt pro Spiel über die letzten 5 Spielzeiten: 2025/26: 0,76, 2024/25: 0,85, 2023/24: 1,24, 2022/23: 1,97, 2021/22: 1,53 (σ=0,45)."),
+      c("tabellenkonstanz", "Tabellenkonstanz", 1, "Abschlussplatzierungen der letzten 5 Spielzeiten: 2025/26: Platz 17 (1.Liga), 2024/25: Platz 16 (1.Liga), 2023/24: Platz 8 (1.Liga), 2022/23: Platz 1 (2.Liga), 2021/22: Platz 6 (2.Liga) (σ=5,19 Plätze, 2.-Liga-Ränge auf 1.-Liga-Skala mit +18 verrechnet)."),
     ]),
     cat("kader", "Kader & Einsatzsicherheit", [
       c("startelfSicherheit", "Startelf-Sicherheit", 3, "Kleiner, eingespielter Kader sorgt für eine über weite Strecken feste Stammelf."),
